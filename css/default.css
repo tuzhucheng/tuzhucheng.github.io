@@ -1,9 +1,39 @@
 @charset "utf-8";
 
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+	font-family: 'Source Sans Pro ExtraLight';
+	src: url(../fonts/source-sans-pro/SourceSansPro-ExtraLight.otf);
+}
+
+@font-face {
+	font-family: 'Source Sans Pro Light';
+	src: url(../fonts/source-sans-pro/SourceSansPro-Light.otf);
+}
+
+@font-face {
+	font-family: 'Source Sans Pro Semibold';
+	src: url(../fonts/source-sans-pro/SourceSansPro-Semibold.otf);
+}
+
+@font-face {
+	font-family: 'Source Sans Pro Bold';
+	src: url(../fonts/source-sans-pro/SourceSansPro-Bold.otf);
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	background: url(../assets/dp_background.JPG) no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #container {
@@ -18,7 +48,8 @@ html, body {
 	height: 50px;
 	position: fixed;
 	top: 0px;
-	font-family: "Segoe UI Light", Verdana, Arial;
+	opacity: 0.8;
+	font-family: "Source Sans Pro Semibold", Verdana, Arial;
 }
 
 #nav_contents {
@@ -34,7 +65,7 @@ html, body {
 	float: left;
 	width: 300px;
 	line-height: 50px;
-	font-family: "Segoe UI", Verdana, Arial;
+	font-family: "Source Sans Pro Bold", Verdana, Arial;
 }
 
 #navbar {
@@ -67,36 +98,28 @@ html, body {
 }
 
 #content {
-	margin-top: 50px;
+	margin: 50px auto 0 auto;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	width: 960px;
-	font-family: "Segoe UI Light", Verdana, Arial;
-	margin-left: auto;
-	margin-right: auto;
+	font-family: "Source Sans Pro", Verdana, Arial;
+	color: #FFF;
 	overflow: hidden;
 }
 
-#illustrations {
-	background-color: #666;
-	width: 300px;
-	margin-right: 80px;
-	height: 300px;
-	float: left;
-}
-
-#introduction {
-	float: left;
-	width: 580px;
-}
-
 #introduction p {
-	margin-top: 0px;
+	margin: 0 auto;
+	padding: 35px;
+	width: 890px;
 	text-align: justify;
+	font-size: 28px;
+	background-color: rgb(47, 47, 47);
+	background-color: rgba(47, 47, 47, 0.7);
 }
 
 #footer {
 	position: absolute;
+	opacity: 0.8;
 	bottom: 0;
 	width: 100%;
 	margin: 5px 0px 0px 0px;
@@ -104,6 +127,6 @@ html, body {
 	background-color: #262626;
 	color: #EDEDED;
 	text-align: center;
-	font-family: "Segoe UI Light", Verdana, Arial;
+	font-family: "Source Sans Pro Light", Verdana, Arial;
 }
 
