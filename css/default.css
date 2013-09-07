@@ -97,6 +97,42 @@ html, body {
 	color: #BDBDBD;
 }
 
+#badges {
+	float: right;
+	line-height: 50px;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+/*Images are aligned vertically in each logo by following the instructions on http://stackoverflow.com/questions/7273338/how-to-properly-align-an-image-vertically*/
+
+#badges .logo {
+	height: 50px;
+	width: 50px;
+	margin: 0;
+	float: left;
+	text-align: center;
+}
+
+#badges .logo a {
+	padding: 0 5px;
+	border: none;
+}
+
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#badges img {
+	vertical-align: middle;
+	text-align: center;
+	max-height: 50px;
+	max-width: 50px;
+	border: none;
+}
+
 #content {
 	margin: 50px auto 0 auto;
 	padding-top: 50px;
@@ -128,5 +164,14 @@ html, body {
 	color: #EDEDED;
 	text-align: center;
 	font-family: "Source Sans Pro Light", Verdana, Arial;
+}
+
+#footer a:link, #footer a:visited {
+	text-decoration: none;
+	color: #06F;
+}
+
+#footer a:hover {
+	text-decoration: underline;
 }
 

@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <title>Michael Tu - Resume</title>
 <link href="css/default.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.color-2.1.2.min.js"></script>
+<script type="text/javascript" src="js/animations.js"></script>
 </head>
 
 <body>
@@ -17,6 +20,16 @@
         <li class="selected"><a href="resume.html">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
+    <div id="badges">
+    <div class="logo" id="github_logo">
+    <span class="helper"></span>
+    <a href="https://github.com/tuzhucheng" target="_blank"><img src="assets/github-32.png" alt="View Michael Tu's GitHub page"></a></div>
+    <div class="logo" id="linkedin_logo">
+	<span class="helper"></span>
+	<a href="http://ca.linkedin.com/in/tuzhucheng" target="_blank"><img src="assets/linkedin-32.png" alt="View Michael Tu's profile on LinkedIn"></a></div>
+    <div class="logo" id="email_logo">
+	<span class="helper"></span>
+	<a href="mailto:z3tu@uwaterloo.ca" target="_blank"><img src="assets/email-32.png" alt="Email Michael Tu"></a></div></div>
     </div>
 </div>
 
@@ -28,7 +41,8 @@
 </div>
 
 <div id="footer">
-<p>Last updated: 09-06-2013</p>
+<p>Last updated: <span id="last_modified_date">09-07-2013</span><br>
+The GitHub, LinkedIn, and email icons are used under the <a href="http://artlibre.org/licence/lal/en" target="_blank">Free Art License</a>.</p>
 </div>
 </div>
 </body>
