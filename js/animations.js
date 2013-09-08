@@ -19,5 +19,17 @@ $(document).ready(function() {
 			$(this).animate({backgroundColor: jQuery.Color("rgb(255,153,0)")}, 200);
 		}, function() {
 			$(this).animate({backgroundColor: jQuery.Color("rgba(38,38,38,0.8)")}, 200);
-	});       
+	});
+	
+	// Expand details
+	$(".see_details").on('click', function() {
+		var $details = $(this).closest(".project").find(".project_details");
+		if ($details.is(":hidden")) {
+			$details.slideDown('slow');
+			$(this).text("Hide Details");
+		} else {
+			$details.slideUp('slow');
+			$(this).text("View Details");
+		}	
+	});
 });
