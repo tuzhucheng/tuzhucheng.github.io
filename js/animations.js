@@ -22,7 +22,8 @@ $(document).ready(function() {
 	});
 	
 	// Expand details
-	$(".see_details").on('click', function() {
+	$(".see_details").on('click', function(event) {
+		event.preventDefault();
 		var $details = $(this).closest(".project").find(".project_details");
 		if ($details.is(":hidden")) {
 			$details.slideDown('slow');
