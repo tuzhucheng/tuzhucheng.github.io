@@ -66,10 +66,40 @@ html {
 <div id="content">
 <h1>Projects</h1>
 
+<div class="project" id="project_grtsquare">
+<h2 class="project_heading">GRTSquare: bus times in your pocket</h2>
+<h3 class="project_lang"><span class="java">C++</span></h3>
+<p class="project_description">GRTSquare is a native BlackBerry 10 app wrote in C++, using the Cascades and Qt framework, that allows users to checkout when the next bus arrives based on the current time or some future time. The application stores everything locally so there is no need for a data connection for it to perform the lookup.</p>
+<div>
+<a class="fancybox" rel="group" href="https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/grtsquare/search.png" title="Search for a bus stop."><img src="https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/grtsquare/search_small.png" alt="" /></a>
+<a class="fancybox" rel="group" href="https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/grtsquare/current.png" title="Displays the routes at the current stop and the next bus times for each route."><img src="https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/grtsquare/current_small.png" alt="" /></a>
+<a class="fancybox" rel="group" href="https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/grtsquare/select_future.png" title="Select a future time to look up."><img src="https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/grtsquare/select_future_small.png" alt="" /></a>
+<div class="project_options">
+<a href="#" class="see_details">View Details</a> |
+<a href="https://github.com/tuzhucheng/GRTSquare" target="_blank">View on GitHub</a>
+</div>
+<div class="project_details">
+<p>Details are coming up!</p>
+</div>
+</div>
+
+<div class="project" id="project_latexme">
+<h2 class="project_heading">LaTeXMe: easier instant messaging for school</h2>
+<h3 class="project_lang"><span class="java">JavaScript</span></h3>
+<p class="project_description">Often when we are trying to communicate mathematical equations to others using instant messaging, it is difficult to decipher the equation in plain text. For example, (b + ((a+b)^2/(c+d)) + cd/2) is pretty hard to read isn't it? During the <b>2014 Facebook Hackathon</b> at the University of Waterloo, I worked alongside three other students from the University of Waterloo to create LaTeXMe, a proof of concept web app for instant messaging where equations need to be sent. Users can login to Facebook and invite their friends to join them to collaborate on math in the LaTexMe chatroom, which can render equations beautifully on the screen from LaTeX. It is powered by the MathJax library. I gained exposure to using the <b>Facebook Graph API</b> while working on this project.</p>
+<div class="project_options">
+<a href="#" class="see_details">View Details</a> |
+<a href="https://github.com/tuzhucheng/fbhack2014" target="_blank">View on GitHub</a>
+</div>
+<div class="project_details">
+<p>Details are coming up!</p>
+</div>
+</div>
+
 <div class="project" id="project_multichat">
 <h2 class="project_heading">multichat: simulated chat application across a network</h2>
 <h3 class="project_lang"><span class="java">Java</span></h3>
-<p class="project_description">multichat consists of 2 different kinds of programs: a server and a client. Multiple instances of the client program can run at the same time and messages can be sent between clients and the server. New clients can join and leave the group at any point in time. I am also working on message delivery guarantee, so that one party can guarantee the message it sent had been received. The main purpose of this project is to practice working with <b>multithreading</b> and <b>networking</b> in Java.</p>
+<p class="project_description">multichat consists of 2 different kinds of programs: a server and a client. Multiple instances of the client program can run at the same time and messages can be sent between clients and the server. New clients can join and leave the group at any point in time. The main purpose of this project is to practice working with <b>concurrency</b> and <b>networking</b> in Java.</p>
 <p class="project_description">The screenshots below demonstrate a sample session running on Windows in PowerShell.</p>
 <div>
 <a class="fancybox" rel="group" href="https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/multichat/server_listening.png" title="The server is launched and it's listening for client requests to connect."><img src="https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/multichat/server_listening_small.PNG" alt="" /></a>
@@ -89,6 +119,12 @@ html {
 <div class="project" id="project_gradetrackr">
 <h2 class="project_heading">GradeTrackr: pocket gradebook</h2>
 <h3 class="project_lang"><span class="android">Android</span>, <span class="java">Java</span></h3>
+<div class="distribute_badge">
+<a href="https://play.google.com/store/apps/details?id=ca.projectkarma.gradetrackr">
+  <img alt="Android app on Google Play"
+       src="http://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
+</div>
 <p class="project_description">GradeTrackr is an Android application that helps students to keep track of their grades. I worked on this project alongside 3 peers in my program. Students can enter terms, courses, categories, and different kinds of evaluations such as tests, quizzes, assignments, and projects into the app and the app can calculate the weighted averages. All data is stored in a SQLite database.</p>
 <div>
 <a class="fancybox" rel="group" href="https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/gradetrackr/terms.png" title="This is the main activity of GradeTrackr when there are no terms present."><img src="https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/gradetrackr/terms_small.PNG" alt="" /></a>
@@ -146,7 +182,7 @@ alt="free hit counter"></a></div></noscript>
 <!-- End of StatCounter Code for Default Guide -->
 
 <div id="footer">
-<p>Copyright &copy; 2013 Michael Tu<br>
+<p>Copyright &copy; 2013-2014 Michael Tu<br>
 <a href="acknowledgements.html">Acknowledgements</a></p>
 </div>
 </div>

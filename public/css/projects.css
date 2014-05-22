@@ -19,6 +19,10 @@
 	font-style: italic;
 }
 
+.distribute_badge {
+	float: right;
+}
+
 .project_description {
 	clear: left;
 	text-align: justify;
@@ -47,17 +51,5 @@
 
 .project p, .project h3 {
 	color: #333;
-}
-
-#project_multichat h2 {
-	color: #CC0000;
-}
-
-#project_gradetrackr h2 {
-	color: #FF8800;
-}
-
-#project_sudoku h2 {
-	color: #669900;
 }
 
