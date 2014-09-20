@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+#navigation {
+	background-color: #262626;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	opacity: 0.8;
+	font-family: "Source Sans Pro Semibold", Verdana, Arial;
+}
+
+#nav_contents {
+	margin: 0px auto;
+	width: 960px;
+	height: 50px;
+}
+
+#title {
+	color: #EDEDED;
+	font-weight: bold;
+	font-size: 25px;
+	float: left;
+	width: 300px;
+	line-height: 50px;
+	font-family: "Source Sans Pro Bold", Verdana, Arial;
+}
+
+#navbar {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px 0px;
+	padding-left: 0px;
+}
+
+#navbar li {
+	display: inline;
+	line-height: 50px;
+}
+
+.selected a {
+	background-color: #555;
+}
+
+#navigation a {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0px 20px;
+	margin: 0px 0px;
+	color: #EDEDED;
+}
+
+#navigation a:hover {
+	color: #BDBDBD;
+}
+
+#badges {
+	float: right;
+	line-height: 50px;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+/*Images are aligned vertically in each logo by following the instructions on http://stackoverflow.com/questions/7273338/how-to-properly-align-an-image-vertically*/
+
+#badges .logo {
+	height: 50px;
+	width: 50px;
+	margin: 0;
+	float: left;
+	text-align: center;
+}
+
+#badges .logo a {
+	padding: 0 5px;
+	border: none;
+}
+
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#badges img {
+	vertical-align: middle;
+	text-align: center;
+	max-height: 50px;
+	max-width: 50px;
+	border: none;
+}
+

@@ -1,0 +1,9 @@
+navigation:
+ - text: Home
+   url: /
+ - text: Blog
+   url: /blog/
+ - text: Resume
+   url: /resume/
+ - text: Projects
+   url: /projects/

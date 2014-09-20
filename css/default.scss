@@ -1,0 +1,49 @@
+---
+---
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  padding-top: 70px;
+  margin-bottom: 60px;
+}
+
+.introduction {
+  display: block;
+  margin-top: 150px;
+  font-size: 20px;
+}
+
+.projects {
+  .project-title {
+    margin-bottom: 20px;
+  }
+
+  div {
+    &:last-child {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+
+    p {
+      margin: 20px 0;
+    }
+  }
+}
+
