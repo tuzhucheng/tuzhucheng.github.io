@@ -1,0 +1,27 @@
+---
+layout: post
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head_includes.html %}
+    <link rel="stylesheet" href="/css/post.css">
+    <title>My First Blog Post</title>
+  </head>
+  <body>
+    {% assign url = page.url|remove:'index.html' %}
+    {% include navigation.html %}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-1 col-md-10">
+        	<h1>{{ page.title }}</h1>
+        	<small>{{ page.date | date: '%B %d, %Y' }}</small>
+			{{ content }}
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+    {% include counter.html %}
+  </body>
+</html>

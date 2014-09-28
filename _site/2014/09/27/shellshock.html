@@ -8,7 +8,8 @@
 <link rel="stylesheet" href="/css/syntax.css">
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <title>Michael Tu</title>
+    <link rel="stylesheet" href="/css/post.css">
+    <title>My First Blog Post</title>
   </head>
   <body>
     
@@ -27,7 +28,7 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         
-        <li class="active">
+        <li >
           <a href="/">Home</a>
         </li>
         
@@ -52,13 +53,28 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-offset-2 col-md-8 introduction">
-          <p>I am a 2B Software Engineering student at the University of Waterloo. On this website you can learn more about the side projects I have been working on. Outside of school I enjoy reading, catching up on the latest world news, and exploring mind-blowing topics relevant to my field on Coursera and edX.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-          <p>My website is being rebuilt using Jekyll at the moment so pages may not look nicely as they should.</p>
+        <div class="col-md-offset-1 col-md-10">
+        	<h1>My First Blog Post</h1>
+        	<small>September 27, 2014</small>
+			<p>For a long time I've always wanted to blog. In fact, I started blogging a very long time ago, when I was in junior high school. I was only reminded of that <a href="http://michaelt59.blogspot.com">blog</a> when I began recollecting when I first started blogging. From then when I was childish until now, I have not blogged. But during the last two years a few of my friends have re-inspired me to start blogging again. After many delays, here is my first blog post as an adult. It will be about the Shellshock bug that was publicized recently on the news. Many of my blog posts will be on technical subjects that I have an interest in, but I also hope to tell a few good stories and share some of my life experiences. Let's begin!</p>
+
+<p>Instead of directly explaining what the Shellshock bug does, I prefer to show an example to show its effects first. I ran this command before updating bash on my laptop and ran it again after, and the screenshot below illustrates the difference.</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">env <span class="nv">x</span><span class="o">=</span><span class="s1">&#39;() { :;}; echo vulnerable&#39;</span> bash -c <span class="s2">&quot;hello&quot;</span></code></pre></div>
+
+<p><img src="/assets/screenshots/shellshock.png" alt="The before and after results of applying the bash update" /></p>
+
+<p>Without explanation, I think you can see the danger if you have familiarity with the shell. I regret that I did not try more commands before I patched bash on my computer, but I am very curious what would happen if some hacker replace</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo </span>vulnerable</code></pre></div>
+
+<p>with</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> ~<span class="p">;</span> rm -rf *</code></pre></div>
+
+<p><span class="text-danger">Please do not try this.</span> Maybe I will try a similar command on my VM that is unpatched and provide an update, but of course I would not try to remove everything from my home directory ;p.</p>
+
+
         </div>
       </div>
     </div>
