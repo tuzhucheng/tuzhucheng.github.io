@@ -7,6 +7,9 @@ body {
   padding-top: 70px;
   margin-bottom: 60px; }
 
+.first-block {
+  margin-top: 50px; }
+
 .introduction {
   display: block;
   margin-top: 150px;
