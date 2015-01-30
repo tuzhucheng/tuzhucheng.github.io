@@ -1,5 +1,6 @@
 - name: Knowledge Extraction and Visualization
   technologies: Scala
+  link: "https://github.com/crea-berkeley/relation-extraction"
   description: I am currently in a team working on extracting knowledge about the neuroendocrine system from PubMed
                and visualizing these knowledge. Relations are compiled from sentences parsed using NLP from relevant
                articles on PubMed. A graph involving nodes and edges is used to represent these relations.
@@ -8,6 +9,7 @@
 
 - name: UW Course Alerter
   technologies: Python
+  link: "https://github.com/tuzhucheng/uw-course-alerter"
   description: Sometimes when enrolling for courses, students cannot enroll in the section they wish, or not in the course
                at all. It is also slow to check Quest for availability, the registration system of the University of Waterloo.
                UW Courser Alerter is made to make registering for desired courses and sections easier.
@@ -16,6 +18,7 @@
 
 - name: Waterloo Region ION Survey
   technologies: Node.js with AngularJS
+  link: "http://www.wr-rtsurvey.com/"
   description: I worked with an Civil Engineering undergrad and a Civil Engineering Graduate student
                to create a single page web application to collect surveys on people's thoughts about the LRT project in the
                Kitchener-Waterloo region. I architected this web application, wrote more than 70% of the code, and maintain
@@ -23,12 +26,14 @@
 
 - name: "GRTSquare: bus times in your pocket"
   technologies: C++
+  link: "https://github.com/tuzhucheng/REST-API-for-GRT"
   description: GRTSquare is a native BlackBerry 10 app wrote in C++, using the Cascades and Qt framework,
                that allows users to checkout when the next bus arrives based on the current time or some future time.
                The application stores everything locally so there is no need for a data connection for it to perform the lookup.
 
 - name: "LaTeXMe: easier instant messaging for school"
   technologies: JavaScript
+  link: "https://github.com/hyunwookshin/uwcollab"
   description: "Often when we are trying to communicate mathematical equations to others using instant messaging,
   it is difficult to decipher the equation in plain text. For example, (b + ((a+b)^2/(c+d)) + cd/2) is pretty hard
   to read. During the <b>2014 Facebook Hackathon</b> at the University of Waterloo, I worked alongside three
@@ -39,6 +44,7 @@
 
 - name: "multichat: simulated chat application across a network"
   technologies: Java
+  link: "https://github.com/tuzhucheng/multichat"
   description: "multichat consists of 2 different kinds of programs: a server and a client.
   Multiple instances of the client program can run at the same time and messages can be sent between clients
   and the server. New clients can join and leave the group at any point in time. The main purpose of this project
@@ -46,6 +52,7 @@
 
 - name: "GradeTrackr: pocket gradebook"
   technologies: Android
+  link: "https://play.google.com/store/apps/details?id=ca.projectkarma.gradetrackr"
   description: "GradeTrackr is an Android application that helps students to keep track of their grades.
   I worked on this project alongside 3 peers in my program. Students can enter terms, courses, categories,
   and different kinds of evaluations such as tests, quizzes, assignments, and projects into the app and the
@@ -53,6 +60,7 @@
 
 - name: "Sudoku Solver: solve any Sudoku puzzles"
   technologies: Java, JavaScript, C#
+  link: "https://github.com/tuzhucheng/Step-By-Step-Sudoku-Solver-for-Windows-8"
   description: !xml |
                 <div>
                   Sudoku Solver does exactly what it says, it can solve any Sudoku found on the web and in puzzle books.
