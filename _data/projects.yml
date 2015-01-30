@@ -19,10 +19,10 @@
 - name: Waterloo Region ION Survey
   technologies: Node.js with AngularJS
   link: "http://www.wr-rtsurvey.com/"
-  description: I worked with an Civil Engineering undergrad and a Civil Engineering Graduate student
+  description: "I worked with an Civil Engineering undergrad and a Civil Engineering Graduate student
                to create a single page web application to collect surveys on people's thoughts about the LRT project in the
                Kitchener-Waterloo region. I architected this web application, wrote more than 70% of the code, and maintain
-               it on Heroku.
+               it on Heroku."
 
 - name: "GRTSquare: bus times in your pocket"
   technologies: C++
