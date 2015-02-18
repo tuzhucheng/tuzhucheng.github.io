@@ -1,7 +1,11 @@
 navigation:
  - text: Home
    url: /
+ - text: Blog
+   url: /blog/
  - text: Resume
    url: /resume/
  - text: Projects
    url: /projects/
+paginate: 5
+paginate_path: "/blog/page:num/"
