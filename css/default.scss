@@ -9,13 +9,35 @@ body {
   /* Margin bottom by footer height */
   padding-top: 70px;
   margin-bottom: 60px;
+//  background: url(../assets/background/IMG_0645.JPG) no-repeat center center fixed;
+//  -webkit-background-size: cover;
+//  -moz-background-size: cover;
+//  -o-background-size: cover;
+//  background-size: cover;
 }
 
-.badges {
-  margin-top: 11px;
-  a {
-    padding-left: 10px;
-  }
+h1, p, a {
+  font-family: 'Kameron', serif;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+.bottom-buffer {
+  margin-bottom: 20px;
+}
+
+.bottom-buffer-lg {
+  margin-bottom: 40px;
+}
+
+/* Inspired by http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-container-in-bootstrap */
+.vertical-center {
+  min-height: 80%; /* Fallback for browsers that do not support vh unit */
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
 }
 
 .first-block {
@@ -26,6 +48,9 @@ body {
   display: block;
   margin-top: 150px;
   font-size: 20px;
+  text-align: justify;
+//  background-color: rgba(243, 243, 243, 0.8);
+  padding: 20px 35px;
 }
 
 .project-technologies {
