@@ -4,21 +4,16 @@
 <html lang="en">
   <head>
     {% include head_includes.html %}
+    <link rel="stylesheet" href="/css/projects.css">
     <title>Michael Tu</title>
   </head>
   <body>
     {% assign url = page.url|remove:'index.html' %}
     {% include navigation.html %}
-    <div class="container projects">
+    <div class="container projects bottom-buffer">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
           <h1>Projects</h1>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-          <p class="text-danger">Screenshots are coming up...</p>
         </div>
       </div>
 
@@ -28,15 +23,39 @@
             <section>
               <div class="row">
                 <div class="col-md-8">
-                  <div class="project-title">
-                    <a href="{{ project.link }}" target="_blank"><h2>{{ project.name }}</h2></a>
-                  </div>
+                    <h2>{{ project.name }}</h2>
                 </div>
                 <div class="col-md-4">
                   <h3 class="project-technologies">{{ project.technologies }}</h3>
                 </div>
               </div>
-              <p>{{ project.description }}</p>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="project-description">{{ project.description }}</p>
+                </div>
+              </div>
+              {% if project contains 'screenshots' %}
+              <div class="row top-buffer bottom-buffer">
+                <div class="col-md-12">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      {% for screenshot in project.screenshots %}
+                      <a class="fancybox" rel="group" href="{{ screenshot.fullsize }}" title="{{ screenshot.description }}">
+                        <img src="{{ screenshot.thumbnail }}" alt>
+                      </a>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% endif %}
+              <div class="row">
+                <div class="col-md-12">
+                  {% for link in project.links %}
+                    <a class="project-link" href="{{ link.href }}" target="_blank">{{ link.display }}</a>
+                  {% endfor %}
+                </div>
+              </div>
             </section>
           </div>
         </div>

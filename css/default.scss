@@ -16,8 +16,12 @@ body {
 //  background-size: cover;
 }
 
-h1, p, a {
+h1, h2, h3, p, a {
   font-family: 'Kameron', serif;
+}
+
+a {
+  color: #003171;
 }
 
 .top-buffer {
@@ -38,35 +42,6 @@ h1, p, a {
   min-height: 80vh;
   display: flex;
   align-items: center;
-}
-
-.first-block {
-  margin-top: 50px;
-}
-
-.introduction {
-  display: block;
-  margin-top: 150px;
-  font-size: 20px;
-  text-align: justify;
-//  background-color: rgba(243, 243, 243, 0.8);
-  padding: 20px 35px;
-}
-
-.project-technologies {
-  text-align: right;
-}
-
-.projects {
-  .project-title {
-    margin-bottom: 20px;
-  }
-
-  div {
-    &:last-child {
-      margin-bottom: 20px;
-    }
-  }
 }
 
 .footer {
