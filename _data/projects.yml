@@ -50,7 +50,7 @@
                it on Heroku."
   links:
     - display: View Live Web App
-      href: "http://www.wr-rtsurvey.com/"
+      href: "https://mighty-ocean-7716.herokuapp.com/"
 
 - name: "GRTSquare: bus times in your pocket"
   technologies: C++
