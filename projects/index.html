@@ -37,14 +37,15 @@
               {% if project contains 'screenshots' %}
               <div class="row top-buffer bottom-buffer">
                 <div class="col-md-12">
-                  <div class="panel panel-default">
-                    <div class="panel-body">
-                      {% for screenshot in project.screenshots %}
+                  <!-- Inspired by http://stackoverflow.com/a/27620655/2514889 -->
+                  <div class="cover-container">
+                    {% for screenshot in project.screenshots %}
+                    <div class="cover-item">
                       <a class="fancybox" rel="group" href="{{ screenshot.fullsize }}" title="{{ screenshot.description }}">
                         <img src="{{ screenshot.thumbnail }}" alt>
                       </a>
-                      {% endfor %}
                     </div>
+                    {% endfor %}
                   </div>
                 </div>
               </div>

@@ -14,21 +14,65 @@
 - name: Knowledge Extraction and Visualization
   technologies: Scala
   link: "https://github.com/crea-berkeley/relation-extraction"
-  description: "I am currently in a team that is working on extracting knowledge about the neuroendocrine system from PubMed
-               and visualizing these knowledge. Relations are compiled from sentences parsed using NLP from relevant
-               articles on PubMed. A graph involving nodes and edges is used to represent these relations.
-               Gephi is used to help us with visualization. A presentation will be made at the Experimental Biology
-               conference in Boston in April 2015. <br><br>
-
-               One thing I was working on recently was given an unknown representation of the human body anatomy tree in
-               a text file, parse the text file and construct a readable human body anatomy tree in JSON."
+  description: "I work within a team consisting of students from the University of Waterloo
+                and Professor S. Garan from the University of California, Berkeley, on NLP
+                relation extraction and visualization. I am responsible for building a
+                distributed data pipeline to allow the relation extraction program to
+                run in parallel on multiple machines, processing abstracts coming from PubMed.
+                 I also worked on parsing a human anatomy tree, a web app that can visualize
+                 binary relations, and a tool to curate extracted relations.
+                 Technologies I work with, including those used for exploration,
+                 include Scala, Docker, Apache Jena, Apache Spark, Sigma.js, D3.js,
+                 React, OpenCV, MySQL, and PostgreSQL."
+  screenshots:
+    - description: "View details about a specific substance."
+      thumbnail: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/crea/bionavist1_small.png"
+      fullsize: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/crea/bionavist1.png"
+    - description: "Zoom out of the graph."
+      thumbnail: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/crea/bionavist2_small.png"
+      fullsize: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/crea/bionavist2.png"
+    - description: "Select only nodes that represent a keyword from the list."
+      thumbnail: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/crea/bionavist3_small.png"
+      fullsize: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/crea/bionavist3.png"
   links:
     - display: Knowledge Extraction on GitHub
-      href: "https://github.com/crea-berkeley/relation-extraction"
+      href: "https://github.com/tuzhucheng/knowledge-extraction"
     - display: Knowledge Visualization on GitHub
       href: "https://github.com/markfarrell/graph-visualization"
+    - display: Relation Extraction Web App on GitHub
+      href: "https://github.com/dstratossong/CREA-Web-App"
+    - display: Relation Curation Tool
+      href: "https://github.com/tuzhucheng/crea-relation-filterer"
     - display: Body Anatomy Tree Constructor on GitHub
       href: "https://github.com/crea-berkeley/crea-anatomy-tree-builder"
+
+- name: Sleep Guardian
+  technologies: Python
+  link:
+  description: Combine browser history with mobile app usage events to calculate how much you sleep each night,
+               eliminating the need for any user data entry under the assumption you use your phone, tablet, or
+               computer before and after sleeping. This idea was envisioned by a friend and three of us built it
+               together at Hack the North.
+  screenshots:
+    - description: "Home page"
+      thumbnail: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/sleepguardian/homepage_small.png"
+      fullsize: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/sleepguardian/homepage.png"
+    - description: "Sleep graph over time"
+      thumbnail: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/sleepguardian/graph_small.png"
+      fullsize: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/sleepguardian/graph.png"
+    - description: "Chrome extension for data collection"
+      thumbnail: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/sleepguardian/chrome_small.png"
+      fullsize: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/sleepguardian/chrome.png"
+    - description: "Android for data collection"
+      thumbnail: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/sleepguardian/android_small.png"
+      fullsize: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/sleepguardian/android.png"
+  links:
+    - display: Source Code on GitHub
+      href: "https://github.com/luckytoilet/HTN2015"
+    - display: View Live Web App
+      href: "http://www.sleepguardian.co/"
+    - display: Devpost
+      href: "http://devpost.com/software/sleep-guardian"
 
 - name: UW Course Alerter
   technologies: Python
@@ -38,6 +82,10 @@
                UW Courser Alerter is made to make registering for desired courses and sections easier.
                Currently, an API is available to check for course availability and send email notifications if the course or
                section is available and a sample cron client is made that calls this API regularly.
+  screenshots:
+    - description: "An email notification is sent when a class has space that opened up."
+      thumbnail: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/uwalert/email_small.png"
+      fullsize: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/uwalert/email.png"
   links:
     - display: Source Code on GitHub
       href: "https://github.com/tuzhucheng/uw-course-alerter"
