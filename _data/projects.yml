@@ -12,7 +12,7 @@
 #      fullsize: Link to full sized image
 
 - name: Knowledge Extraction and Visualization
-  technologies: Scala
+  technologies: Scala, JavaScript
   link: "https://github.com/crea-berkeley/relation-extraction"
   description: "I work within a team consisting of students from the University of Waterloo
                 and Professor S. Garan from the University of California, Berkeley, on NLP
@@ -47,7 +47,7 @@
       href: "https://github.com/crea-berkeley/crea-anatomy-tree-builder"
 
 - name: Sleep Guardian
-  technologies: Python
+  technologies: Python, Android, JavaScript
   link:
   description: Combine browser history with mobile app usage events to calculate how much you sleep each night,
                eliminating the need for any user data entry under the assumption you use your phone, tablet, or
@@ -100,7 +100,7 @@
     - display: View Live Web App
       href: "https://mighty-ocean-7716.herokuapp.com/"
 
-- name: "GRTSquare: bus times in your pocket"
+- name: "GRTSquare"
   technologies: C++
   description: GRTSquare is a native BlackBerry 10 app wrote in C++, using the Cascades and Qt framework,
                that allows users to checkout when the next bus arrives based on the current time or some future time.
@@ -119,7 +119,7 @@
     - display: Source Code on GitHub
       href: "https://github.com/tuzhucheng/GRTSquare"
 
-- name: "LaTeXMe: easier instant messaging for school"
+- name: "LaTeXMe"
   technologies: JavaScript
   description: "Often when we are trying to communicate mathematical equations to others using instant messaging,
   it is difficult to decipher the equation in plain text. For example, (b + ((a+b)^2/(c+d)) + cd/2) is pretty hard
@@ -132,7 +132,7 @@
     - display: Source Code on GitHub
       href: "https://github.com/hyunwookshin/uwcollab"
 
-- name: "multichat: simulated chat application across a network"
+- name: "multichat"
   technologies: Java
   description: "multichat consists of 2 different kinds of programs: a server and a client.
   Multiple instances of the client program can run at the same time and messages can be sent between clients
@@ -155,7 +155,7 @@
     - display: Source Code on GitHub
       href: "https://github.com/tuzhucheng/multichat"
 
-- name: "GradeTrackr: pocket gradebook"
+- name: "GradeTrackr"
   technologies: Android
   description: "GradeTrackr is an Android application that helps students to keep track of their grades.
   I worked on this project alongside 3 peers in my program. Students can enter terms, courses, categories,
@@ -180,18 +180,13 @@
     - display: Google Play link
       href: "https://play.google.com/store/apps/details?id=ca.projectkarma.gradetrackr"
 
-- name: "Sudoku Solver: solve any Sudoku puzzles"
+- name: "Sudoku Solver"
   technologies: Java, JavaScript, C#
-  description: !xml |
-                <div>
-                  Sudoku Solver does exactly what it says, it can solve any Sudoku found on the web and in puzzle books.
+  description: "Sudoku Solver does exactly what it says, it can solve any Sudoku found on the web and in puzzle books.
                   I used my own algorithm for this project, which is based on 2 elimination techniques.
                   The Sudoku Solver was initially written in Java, and afterwards it was ported to JavaScript as an iOS web app (Mobile Safari)
                   and also to C# as a native Windows 8 app. The Windows 8 app was made during the 2012 WowZapp Microsoft Worldwide Hackathon
-                  and the Sudoku Solver received a mention on
-                  <a href="http://blogs.msdn.com/b/cdnstudents/archive/2012/12/04/waterloo-wowzapp-microsoft-worldwide-hackathon.aspx" target="_blank">
-                  this MSDN blog</a>.
-                </div>
+                  and the Sudoku Solver received a mention on a MSDN blog."
   screenshots:
     - description: "Entering the puzzle on Mobile Safari."
       thumbnail: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/sudoku/ios_enter_small.PNG"
@@ -211,3 +206,5 @@
       href: "https://github.com/tuzhucheng/Step-By-Step-Sudoku-Solver-for-Windows-8"
     - display: JavaScript Source Code on GitHub
       href: "https://github.com/tuzhucheng/sudoku-solver-js"
+    - display: MSDN Blog Mention
+      href: "http://blogs.msdn.com/b/cdnstudents/archive/2012/12/04/waterloo-wowzapp-microsoft-worldwide-hackathon.aspx"
