@@ -18,6 +18,7 @@ $str = implode("", file($tree_files_dir.$this->name));
 $this->nodes = unserialize($str);
 $this->nodes_hash = array();
 ```
+
 I decided to write the program that produced the final JSON output in either Python or Java. The initial approach that I took was I found libraries that can parse this PHP file into native objects in the languages I will be working in, such as [phpserialize](https://pypi.python.org/pypi/phpserialize) for Python and [pherialize](https://github.com/kayahr/pherialize) for Java. Later however I decided to modify the PHP script to produce a JSON output that I can then work with directly instead of using external libraries to parse the serialized PHP objects. Note that this intermediate structure, although it is in JSON, still needs to be processed because it is a flattened tree. Here is a snippet of this flattened tree structure:
 
 ```json

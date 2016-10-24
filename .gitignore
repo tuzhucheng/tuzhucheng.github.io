@@ -1,5 +1,6 @@
 _site/
 .idea/
 assets/profile/*.xcf
+*.swp
 *.DS_STORE
 .jekyll-metadata

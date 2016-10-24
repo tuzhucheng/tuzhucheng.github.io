@@ -8,8 +8,9 @@ navigation:
  - text: Projects
    url: /projects/
 
-markdown: redcarpet
-highlighter: pygments
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
 
 gems: [jekyll-paginate]
 paginate: 5
