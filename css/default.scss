@@ -7,13 +7,8 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  padding-top: 70px;
-  margin-bottom: 60px;
-//  background: url(../assets/background/IMG_0645.JPG) no-repeat center center fixed;
-//  -webkit-background-size: cover;
-//  -moz-background-size: cover;
-//  -o-background-size: cover;
-//  background-size: cover;
+  padding-top: 65px;
+  margin-bottom: 50px;
 }
 
 h1, h2, h3, p, a {
@@ -42,8 +37,8 @@ p {
 
 /* Inspired by http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-container-in-bootstrap */
 .vertical-center {
-  min-height: 80%; /* Fallback for browsers that do not support vh unit */
-  min-height: 80vh;
+  min-height: 85%; /* Fallback for browsers that do not support vh unit */
+  min-height: 85vh;
   display: flex;
   align-items: center;
 }
