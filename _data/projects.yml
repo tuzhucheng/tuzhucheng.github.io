@@ -23,14 +23,14 @@
                  Technologies I work with include Scala, Docker, Sigma.js, D3.js, React, MySQL, and PostgreSQL."
   screenshots:
     - description: "View details about a specific substance."
-      thumbnail: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/crea/bionavist1_small.png"
-      fullsize: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/crea/bionavist1.png"
+      thumbnail: "http://i.imgur.com/UH6TFi4.png"
+      fullsize: "http://i.imgur.com/RXl6GIA.png"
     - description: "Zoom out of the graph."
-      thumbnail: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/crea/bionavist2_small.png"
-      fullsize: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/crea/bionavist2.png"
+      thumbnail: "http://i.imgur.com/E4U38cy.png"
+      fullsize: "http://i.imgur.com/oITRSh1.png"
     - description: "Select only nodes that represent a keyword from the list."
-      thumbnail: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/crea/bionavist3_small.png"
-      fullsize: "https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/crea/bionavist3.png"
+      thumbnail: "http://i.imgur.com/GeQbDFD.png"
+      fullsize: "http://i.imgur.com/cdZMqgW.png"
   links:
     - display: Knowledge Extraction on GitHub
       href: "https://github.com/tuzhucheng/knowledge-extraction"
