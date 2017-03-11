@@ -16,10 +16,10 @@ Throughout June to August, I also took a course called [The Analytics Edge](http
 
 Besides pursuing my passion in working with data, I also visited the Grand Canyon, Las Vegas, Death Valley, Yosemite, Big Sur, Los Angeles, and San Diego. Here are a few pictures:
 
-![Photo 1](https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/photos/IMG_1523.JPG)
-![Photo 2](https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/photos/IMG_1629.jpg)
-![Photo 3](https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/photos/IMG_2169.jpg)
-![Photo 4](https://dl.dropboxusercontent.com/u/39814157/tuzhucheng.com/photos/IMG_2207.jpg)
+![Photo 1](http://i.imgur.com/r8hPhV4.jpg)
+![Photo 2](http://i.imgur.com/uHaerma.jpg)
+![Photo 3](http://i.imgur.com/a7AtYWd.jpg)
+![Photo 4](http://i.imgur.com/PocpQtt.jpg)
 
 After having lots of fun as an Orientation Leader to welcome new students to the university, a new term has come. Here are the most important goals for me in this new term - the so-called "New Term Resolutions". I really hope that I won't regret when looking back at this list at the end of the term:
 
