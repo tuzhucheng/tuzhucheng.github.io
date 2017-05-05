@@ -1,0 +1,45 @@
+---
+layout: post
+title: On My Undergraduate Life
+excerpt: Recently I concluded my undergraduate journey in the Software Engineering program at the University of Waterloo, which spanned the past 4 years and 8 months of my life. During this journey, I developed the skills of my trade, learned life lessons through firsthand experiences, and met many people who influenced the person I would like to become. In this blog post, I will reflect upon some of my experiences under five themes.
+---
+
+Recently I concluded my undergraduate journey in the Software Engineering program at the University of Waterloo, which spanned the past 4 years and 8 months of my life. During this journey, I developed the skills of my trade, learned life lessons through firsthand experiences, and met many people who influenced the person I would like to become. In this blog post, I will reflect upon some of my experiences under five themes.
+
+## On Independence
+
+During my time on campus, I observed that there are people who are almost always alone and there are others who are almost always with a group. In high school, I was often alone, but during the first term of university I was often found in a group whenever I’m on campus. Looking back, the most probable explanation is I wanted to make new friends in a completely new environment and make an impression that I can be sociable. However, since the second term of university I was spending more time alone with the exception of working on group projects or times when I study with my closest friends. Working alone has several advantages for me.
+
+First, I have complete control over my own schedule. This means I can go at my own pace and plan out when I do each assignment for each course. I can pick a plan that is natural and optimized for me rather than tweaking it to synchronize with everyone else. Secondly, studying with friends can sometimes be distracting in the sense that it can lead to tangential conversations and discussions not related to the task at hand. Lastly, it reinforces a sense of responsibility upon myself, since I am the only one who can make progress on the task rather than relying on someone else.
+
+However, under certain circumstances studying in a group can be more effective. For example, sometimes when we want to sanity check the output of our algorithm, we can discuss with peers to see if the result matches under different implementations or is in the same ball park (this is most likely working independently on the implementation and only discussing at the very end). At other times, there might be a difficult problem and discussion with others will lead to better ideas to be brainstormed, validated, and built upon, rather than having one person thinking of the problem in a silo and wasting hours getting nowhere.
+
+Sometimes I felt I had to turn down invitations to study together with friends in order to be more effective. In the beginning I felt some social pressure to study with friends when demanded, but over time I learned to think more independently and do what’s most effective for me without bending to social pressure. As a person with a tendency to study independently, I also learned to get out of my comfort zone and study with others when the situations are suitable. I am still working on initiating group studying when I recognize the situation rather than being called upon by others.
+
+## On the Feedback Loop
+
+Sometimes, I am so settled in a particular mindset and committed to a goal that I did not remember to evaluate myself when I’m working towards the goal or think about whether the goal is still worth pursuing. For example, during one internship I spent 3 weeks singlemindedly working on improving the AUC metric (a measurement of performance) of a binary classifier by a few percents. In retrospect that time could be spent working on something else that has greater impact. If I completed the feedback loop, and saw that I wasn’t making significant improvements after continued attempts, then perhaps I would have seen it was more worthwhile working on something else. The feedback loop is about taking a break from work and reflecting on how we did, and see if there is anything that require adjustment. It is analogous to changing controls in a closed-loop feedback control system to better track an output/goal.
+
+## On Networking
+
+Throughout my undergrad I was lucky to meet many excellent individuals who helped me to become better or influenced my perspectives on how to live life. This can be making me realize there is a lot more to life than just having a meaningful career, getting a taste of music theory, realizing the fun in doing research, or gaining an appreciation for folk music. Without them, I would have a much more isolated and narrow perspective of how to live my life.
+
+I participated in all kinds of events to meet new people. The list includes attending hackathons, participating in events of various student clubs, volunteering as an orientation leader, and going to meetups. I found it became easier to meet new people as time went on, because the people I met in the past can introduce me to new people. My efforts allowed me to meet many people outside my program and my year, compared to many others in my program. Ultimately, this changed the course of my life, since the people I met outside of my program/year and the people I knew through them led me to do research and eventually taking the grad school path rather than going to work in industry directly. Almost everyone in Software Engineering go directly to industry, so without listening to the voices of a few people who advocated grad school, I would have followed the wave.
+
+## On Opportunities and Risks
+
+When I was looking for my third internship, I could either lock in a match with a medium-sized company in Toronto or take a risk and see if I can get matched with a startup in the San Francisco Bay Area. In the event I failed to get matched in the latter case, I would either have to take a less desirable job or keep looking. I took the risk, got matched, and experienced a life-changing internship that transformed the way I view software engineering. I was taking a calculated risk, since I can handle the consequences if things turned out the other way without too much loss relative to the baseline of locking in the match.
+
+Before graduation, I had an attractive job offer in the Silicon Valley. I can either decide to take it and finally realize my dream before I entered university to work in the Silicon Valley or take a risk and pursue other things that are important to me in grad school. The risk in the latter scenario is it is not guaranteed I can find a good of a job as before in the Silicon Valley. I decided to instead pursue graduate studies in the end.
+
+There are also instances where I didn’t take the risk, and now I wish I did. I won’t elaborate on those now in order to keep this post shorter and less personal. I became emboldened by not always taking the most secure path. We have to be prepared to make sacrifices to create opportunities for something greater.
+
+## On Planning for the Future
+
+When I entered university, I did not imagine I would be doing grad school at all since it seemed to me back then most undergraduates will be able to find relatively attractive jobs when they graduate. In the second half of my third year, I realized that grad school would be a path I should consider taking. However, ideally I should have started preparing earlier should I apply to grad school - maybe I should have paid even more attention to my GPA, worked on getting a publication earlier, or even did research earlier. Although it is never possible to anticipate all the paths one can take in the future, we should keep an open-mind and consider what we could be doing in the future. To my younger self, I would say do some research regarding what I can do 5 years from now, and work on areas that can keep the top paths wide open. Since I realized I should apply to grad school, I made sure I did research with different professors to get enough recommendation letters, but had I anticipated and started preparations earlier I would be a much more competitive grad school candidate.
+
+Perhaps my biggest regret in undergrad is I never went on an exchange term. During my last year I went on an Europe trip for 4 days to attend an academic conference, and it was an eye-opening experience. An exchange term’s primary purpose for me is to experience an alternative way of life from another culture. This regret resulted from the lack of future planning, and by the time I started to consider it, it was already too late.
+
+---
+
+At the end of this book of my life, of my undergraduate years, I have become someone who is happy with my character and someone who is more willing to take risks. From past mistakes I’ll also be more watchful of evaluating my own performance to complete the feedback loop and planning for the future. I am optimistic about the future and thank everyone who I’ve had the pleasure to meet, talk to, and influenced me in big and small ways in these special years of my life.
