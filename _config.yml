@@ -7,6 +7,8 @@ navigation:
    url: /resume/
  - text: Projects
    url: /projects/
+ - text: Publications
+   url: /publications/
 
 kramdown:
     input: GFM

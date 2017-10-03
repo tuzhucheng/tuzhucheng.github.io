@@ -1,0 +1,33 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head_includes.html %}
+    <link rel="stylesheet" href="/css/publications.css">
+    <title>Michael Tu</title>
+  </head>
+  <body>
+    {% assign url = page.url|remove:'index.html' %}
+    {% include navigation.html %}
+    <div class="container projects bottom-buffer">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Publications</h1>
+          <ul>
+            {% for pub in site.data.publications %}
+            <li class="publication-item">
+              {{ pub.names }}.
+              <b><a href="{{ pub.link }}", target="_blank">{{ pub.title }}</a></b>.
+              <i>{{ pub.booktitle }}</i>, {{ pub.year }}, {{ pub.location }}.
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    {% include footer.html %}
+    {% include counter.html %}
+  </body>
+</html>

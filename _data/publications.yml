@@ -1,0 +1,27 @@
+#- names: Names of authors
+#  title: Name of publication
+#  link: URL to publication
+#  booktitle: Name of conference, proceedings etc.
+#  location: Location of venue
+#  year: year
+
+- names: Zhucheng Tu, Matt Crane, Royal Sequiera, Junchen Zhang, and Jimmy Lin
+  title: An Exploration of Approaches to Integrating Neural Reranking Models in Multi-Stage Ranking Architectures
+  link: https://arxiv.org/abs/1707.08275
+  booktitle: "Proceedings of the SIGIR 2017 Workshop on Neural Information Retrieval (Neu-IR'17)"
+  location: Tokyo, Japan
+  year: August 2017
+
+- names: Royal Sequiera, Gaurav Baruah, Zhucheng Tu, Salman Mohammed, Jinfeng Rao, Haotian Zhang, and Jimmy Lin
+  title: Exploring the Effectiveness of Convolutional Neural Networks for Answer Selection in End-to-End Question Answering
+  link: https://arxiv.org/abs/1707.07804
+  booktitle: "Proceedings of the SIGIR 2017 Workshop on Neural Information Retrieval (Neu-IR'17)"
+  location: Tokyo, Japan
+  year: August 2017
+
+- names: Jimmy Lin, Zhucheng Tu, Michael Rose, and Patrick White
+  title: "Prizm: A Wireless Access Point for Proxy-Based Web Lifelogging"
+  link: https://dl.acm.org/authorize?N25521
+  booktitle: Proceedings of the First Workshop on Lifelogging Tools and Applications (LTA 2016)
+  location: Amsterdam, The Netherlands
+  year: October 2016
