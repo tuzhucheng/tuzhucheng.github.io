@@ -19,7 +19,7 @@
             <li class="publication-item">
               {{ pub.names }}.
               <b><a href="{{ pub.link }}", target="_blank">{{ pub.title }}</a></b>.
-              <i>{{ pub.booktitle }}</i>, {{ pub.year }}, {{ pub.location }}.
+              <i>{{ pub.booktitle }}</i>, {{ pub.year }}{% if pub.location %}, {{ pub.location }}{% endif %}.
             </li>
             {% endfor %}
           </ul>

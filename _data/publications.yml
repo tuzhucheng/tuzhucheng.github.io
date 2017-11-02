@@ -5,6 +5,12 @@
 #  location: Location of venue
 #  year: year
 
+- names: Raphael Tang, Weijie Wang, Zhucheng Tu, and Jimmy Lin
+  title: An Experimental Analysis of the Power Consumption of Convolutional Neural Networks for Keyword Spotting
+  link: https://arxiv.org/abs/1711.00333
+  booktitle: "arXiv:1711.00333"
+  year: October 2017
+
 - names: Zhucheng Tu, Matt Crane, Royal Sequiera, Junchen Zhang, and Jimmy Lin
   title: An Exploration of Approaches to Integrating Neural Reranking Models in Multi-Stage Ranking Architectures
   link: https://arxiv.org/abs/1707.08275
