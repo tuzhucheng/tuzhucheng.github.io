@@ -1,4 +1,5 @@
-#- names: Names of authors
+#- id: id
+#  names: Names of authors
 #  title: Name of publication
 #  link: URL to publication
 #  booktitle: Name of conference, proceedings etc.
@@ -6,7 +7,8 @@
 #  location: Location of venue
 #  year: year
 
-- names: "Raphael Tang, Weijie Wang, <strong>Zhucheng Tu</strong>, and Jimmy Lin"
+- id: tang2017experimental
+  names: "Raphael Tang, Weijie Wang, <strong>Zhucheng Tu</strong>, and Jimmy Lin"
   title: An Experimental Analysis of the Power Consumption of Convolutional Neural Networks for Keyword Spotting
   link: https://arxiv.org/abs/1711.00333
   abstract: "Nearly all previous work on small-footprint keyword spotting with
@@ -22,7 +24,8 @@
   booktitle: "arXiv:1711.00333"
   year: October 2017
 
-- names: "<strong>Zhucheng Tu</strong>, Matt Crane, Royal Sequiera, Junchen Zhang, and Jimmy Lin"
+- id: tu2017exploration
+  names: "<strong>Zhucheng Tu</strong>, Matt Crane, Royal Sequiera, Junchen Zhang, and Jimmy Lin"
   title: An Exploration of Approaches to Integrating Neural Reranking Models in Multi-Stage Ranking Architectures
   link: https://arxiv.org/abs/1707.08275
   abstract: "We explore different approaches to integrating a simple convolutional
@@ -49,7 +52,8 @@
   location: Tokyo, Japan
   year: August 2017
 
-- names: "Royal Sequiera, Gaurav Baruah, <strong>Zhucheng Tu</strong>, Salman Mohammed, Jinfeng Rao, Haotian Zhang, and Jimmy Lin"
+- id: sequiera2017exploring
+  names: "Royal Sequiera, Gaurav Baruah, <strong>Zhucheng Tu</strong>, Salman Mohammed, Jinfeng Rao, Haotian Zhang, and Jimmy Lin"
   title: Exploring the Effectiveness of Convolutional Neural Networks for Answer Selection in End-to-End Question Answering
   link: https://arxiv.org/abs/1707.07804
   abstract: "Most work on natural language question answering today focuses on
@@ -74,7 +78,8 @@
   location: Tokyo, Japan
   year: August 2017
 
-- names: "Jimmy Lin, <strong>Zhucheng Tu</strong>, Michael Rose, and Patrick White"
+- id: lin2016prizm
+  names: "Jimmy Lin, <strong>Zhucheng Tu</strong>, Michael Rose, and Patrick White"
   title: "Prizm: A Wireless Access Point for Proxy-Based Web Lifelogging"
   link: https://dl.acm.org/authorize?N25521
   abstract: "We present Prizm, a prototype lifelogging device that comprehensively
