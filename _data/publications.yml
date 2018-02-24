@@ -2,18 +2,49 @@
 #  title: Name of publication
 #  link: URL to publication
 #  booktitle: Name of conference, proceedings etc.
+#  abstract: Abstract
 #  location: Location of venue
 #  year: year
 
 - names: "Raphael Tang, Weijie Wang, <strong>Zhucheng Tu</strong>, and Jimmy Lin"
   title: An Experimental Analysis of the Power Consumption of Convolutional Neural Networks for Keyword Spotting
   link: https://arxiv.org/abs/1711.00333
+  abstract: "Nearly all previous work on small-footprint keyword spotting with
+  neural networks quantify model footprint in terms of the number of
+  parameters and multiply operations for a feedforward inference pass. These values
+  are, however, proxy measures since empirical performance in actual
+  deployments is determined by many factors. In this paper, we study the
+  power consumption of a family of convolutional neural networks for
+  keyword spotting on a Raspberry Pi. We find that both proxies are good
+  predictors of energy usage, although the number of multiplies is more
+  predictive than the number of model parameters. We also confirm that models
+  with the highest accuracies are, unsurprisingly, the most power hungry."
   booktitle: "arXiv:1711.00333"
   year: October 2017
 
 - names: "<strong>Zhucheng Tu</strong>, Matt Crane, Royal Sequiera, Junchen Zhang, and Jimmy Lin"
   title: An Exploration of Approaches to Integrating Neural Reranking Models in Multi-Stage Ranking Architectures
   link: https://arxiv.org/abs/1707.08275
+  abstract: "We explore different approaches to integrating a simple convolutional
+  neural network (CNN) with the Lucene search engine in a multi-stage
+  ranking architecture. Our models are trained using the PyTorch deep
+  learning toolkit, which is implemented in C/C++ with a Python
+  frontend. One obvious integration strategy is to expose the neural network
+  directly as a service. For this, we use Apache Thrift, a software
+  framework for building scalable cross-language services.
+  In exploring alternative architectures,
+  we observe that once trained, the feedforward evaluation of neural
+  networks is quite straightforward. Therefore, we can extract the parameters of
+  a trained CNN from PyTorch and import the model into Java, taking
+  advantage of the Java Deeplearning4J library for feedforward evaluation.
+  This has the advantage that the entire end-to-end system can be implemented in Java. As a
+  third approach, we can extract the neural network from PyTorch and
+  \"compile\" it into a C++ program that exposes a Thrift service.
+  We evaluate these alternatives in terms of performance (latency and throughput) as well
+  as ease of integration.
+  Experiments show that feedforward evaluation of the convolutional
+  neural network is significantly slower in Java, while the performance of
+  the compiled C++ network does not consistently beat the PyTorch implementation."
   booktitle: "Proceedings of the SIGIR 2017 Workshop on Neural Information Retrieval (Neu-IR'17)"
   location: Tokyo, Japan
   year: August 2017
@@ -21,6 +52,24 @@
 - names: "Royal Sequiera, Gaurav Baruah, <strong>Zhucheng Tu</strong>, Salman Mohammed, Jinfeng Rao, Haotian Zhang, and Jimmy Lin"
   title: Exploring the Effectiveness of Convolutional Neural Networks for Answer Selection in End-to-End Question Answering
   link: https://arxiv.org/abs/1707.07804
+  abstract: "Most work on natural language question answering today focuses on
+  answer selection: given a candidate list of sentences, determine
+  which contains the answer. Although important, answer selection is
+  only one stage in a standard end-to-end question answering
+  pipeline. This paper explores the effectiveness of convolutional neural
+  networks (CNNs) for answer selection in an end-to-end context using
+  the standard TrecQA dataset.
+  We observe that a simple <i>idf</i>-weighted word overlap
+  algorithm forms a very strong baseline, and that despite substantial
+  efforts by the community in applying deep learning to tackle answer selection,
+  the gains are modest at best on this dataset.
+  Furthermore, it is unclear if a CNN is more effective than the baseline
+  in an end-to-end context based on
+  standard retrieval metrics. To further explore this finding, we conducted
+  a manual user evaluation, which confirms that
+  answers from the CNN are detectably better than those from <i>idf</i>-weighted
+  word overlap. This result suggests that users are sensitive to relatively small
+  differences in answer selection quality."
   booktitle: "Proceedings of the SIGIR 2017 Workshop on Neural Information Retrieval (Neu-IR'17)"
   location: Tokyo, Japan
   year: August 2017
@@ -28,6 +77,19 @@
 - names: "Jimmy Lin, <strong>Zhucheng Tu</strong>, Michael Rose, and Patrick White"
   title: "Prizm: A Wireless Access Point for Proxy-Based Web Lifelogging"
   link: https://dl.acm.org/authorize?N25521
+  abstract: "We present Prizm, a prototype lifelogging device that comprehensively
+  records a user’s web activity. Prizm is a wireless
+  access point deployed on a Raspberry Pi that is designed
+  to be a substitute for the user’s normal wireless access point.
+  Prizm proxies all HTTP(S) requests from devices connected
+  to it and records all activity it observes. Although this particular
+  design is not entirely novel, there are a few features
+  that are unique to our approach, most notably the physical
+  deployment as a wireless access point. Such a package allows
+  capture of activity from multiple devices, integration
+  with web archiving for preservation, and support for offline
+  operation. This paper describes the design of Prizm, the
+  current status of our project, and future plans."
   booktitle: Proceedings of the First Workshop on Lifelogging Tools and Applications (LTA 2016)
   location: Amsterdam, The Netherlands
   year: October 2016

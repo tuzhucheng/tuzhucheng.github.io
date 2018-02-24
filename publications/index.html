@@ -10,17 +10,17 @@
   <body>
     {% assign url = page.url|remove:'index.html' %}
     {% include navigation.html %}
-    <div class="container top-buffer bottom-buffer">
+    <div class="container pt-5 pb-5">
       <div class="row">
         <div class="col-md-12">
           <h1>Publications</h1>
           {% for pub in site.data.publications %}
-          <div class="card bottom-sep">
+          <div class="card mb-3">
             <div class="card-body">
               <h5 class="card-title">{{ pub.title }}</h5>
               <h6 class="card-subtitle mb-2 text-muted">{{ pub.names }}</h6>
               <h6 class="card-subtitle mb-2 text-muted"><i>{{ pub.booktitle }}</i>, {{ pub.year }}{% if pub.location %}, {{ pub.location }}{% endif %}</h6>
-              <!-- <p class="card-text"></p> -->
+              <p class="card-text">{{ pub.abstract }}</p>
               <a href="{{ pub.link }}" target="_blank" class="card-link">Paper</a>
             </div>
           </div>
