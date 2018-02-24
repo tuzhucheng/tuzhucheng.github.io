@@ -10,14 +10,14 @@
   <body>
     {% assign url = page.url|remove:'index.html' %}
     {% include navigation.html %}
-    <div class="container top-buffer">
+    <div class="container pt-5 pb-5">
       <div class="row">
         <div class="col-md-12">
           <h1>Blog</h1>
         </div>
       </div>
 
-      <div class="row bottom-buffer">
+      <div class="row">
         <div class="col-md-12">
           {% if paginator.posts.size > 0 %}
             {% for post in paginator.posts %}
@@ -30,7 +30,7 @@
             </div>
             {% endfor %}
           {% else %}
-            <p class="top-buffer">There are no blog posts currently available.</p>
+            <p class="pt-5 pb-5">There are no blog posts currently available.</p>
           {% endif %}
         </div>
       </div>

@@ -10,7 +10,7 @@
   <body>
     {% assign url = page.url|remove:'index.html' %}
     {% include navigation.html %}
-    <div class="container projects top-buffer bottom-buffer">
+    <div class="container projects pt-5 pb-5">
       <div class="row">
         <div class="col-md-12">
           <h1>Projects</h1>
@@ -18,7 +18,7 @@
       </div>
 
       {% for project in site.data.projects %}
-        <div class="row top-buffer">
+        <div class="row mb-3">
           <div class="col-md-12">
             <section>
               <div class="row">
@@ -35,7 +35,7 @@
                 </div>
               </div>
               {% if project contains 'screenshots' %}
-              <div class="row top-buffer bottom-buffer">
+              <div class="row pt-3 pb-3">
                 <div class="col-md-12">
                   <!-- Inspired by http://stackoverflow.com/a/27620655/2514889 -->
                   <div class="cover-container">
