@@ -14,15 +14,83 @@
   }
 }
 
-.social-media-container {
-  float: left;
-  a {
-    display: block;
-    height: 64px;
-    padding: 15px 10px;
-  }
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+          transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
 
-  &:hover {
-    background-color: #eeeeee;
-  }
+.social-btns .btn:before {
+  top: 90%;
+  left: -110%;
+}
+.social-btns .btn .fa {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+.social-btns .btn.github:before {
+  background-color: #4078c0;
+}
+.social-btns .btn.github .fa {
+  color: #4078c0;
+}
+.social-btns .btn.twitter:before {
+  background-color: #3cf;
+}
+.social-btns .btn.twitter .fa {
+  color: #3cf;
+}
+.social-btns .btn.linkedin:before {
+  background-color: #0077b5;
+}
+.social-btns .btn.linkedin .fa {
+  color: #0077b5;
+}
+.social-btns .btn.email:before {
+  background-color: #f65314;
+}
+.social-btns .btn.email .fa {
+  color: #f65314;
+}
+
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+  color: #fff;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.social-btns .btn {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 50px;
+  margin: 0 0px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28%;
+  -webkit-box-shadow: 0 5px 10px -5px rgba(0,0,0,0.1);
+          box-shadow: 0 5px 10px -5px rgba(0,0,0,0.1);
+  opacity: 0.99;
+}
+.social-btns .btn:before {
+  content: '';
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.social-btns .btn .fa {
+  font-size: 30px;
+  vertical-align: middle;
 }

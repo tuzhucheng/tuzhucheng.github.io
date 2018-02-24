@@ -10,14 +10,14 @@
   <body>
     {% assign url = page.url|remove:'index.html' %}
     {% include navigation.html %}
-    <div class="container">
+    <div class="container top-buffer">
       <div class="row">
         <div class="col-md-12">
           <h1>Blog</h1>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row bottom-buffer">
         <div class="col-md-12">
           {% if paginator.posts.size > 0 %}
             {% for post in paginator.posts %}
@@ -35,7 +35,7 @@
         </div>
       </div>
 
-      <div class="row bottom-buffer">
+      <div class="row">
         <div class="col-md-10 col-md-offset-1">
           <!-- Inspiration from http://jekyllrb.com/docs/pagination/ -->
 

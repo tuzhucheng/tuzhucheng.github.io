@@ -5,25 +5,45 @@
   <head>
     {% include head_includes.html %}
     <link rel="stylesheet" href="/css/frontpage.css">
+    <script>
+      // adapted from https://www.solodev.com/blog/web-design/adding-a-scroll-down-anchor-to-your-website.stml
+      $(document).ready(function(){
+        $("#learn-more").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+              window.location.hash = hash;
+            });
+          }
+        });
+      });
+    </script>
     <title>Michael Tu</title>
   </head>
   <body>
     {% assign url = page.url|remove:'index.html' %}
     {% include navigation.html %}
-    <div class="vertical-center" id="cover">
-      <div class="container">
-        <div class="row top-buffer">
-          <div class="col-md-offset-1 col-md-10">
-            <img class="center-block" src="assets/profile/profile_picture.jpg" alt="Michael Tu" width="150">
+    <div class="overlay">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="intro">
+            <img src="assets/profile/profile-round.png" alt="Michael Tu" width="150">
+            <h1 class="display-3">Hello, world!</h1>
+            <p>I'm Michael, a graduate CS student at the University of Waterloo.
+               My Chinese name is 涂竹成, so you often see Zhucheng Tu as my official name.
+               I finished my undergrad in Software Engineering in 2017, also at Waterloo.</p>
+            <p><a class="btn btn-info btn-lg" id="learn-more" href="#about" role="button">Learn more about me &raquo;</a></p>
           </div>
         </div>
-        <div class="row top-buffer">
-          <div class="col-md-offset-1 col-md-10">
-            <h1 class="text-center">Michael Tu</h1>
-          </div>
-        </div>
-        <div class="row top-buffer bottom-buffer">
-          <div class="col-md-offset-1 col-md-10">
+      </div>
+    </div>
+    <div class="vertical-center">
+      <div class="container" id="about">
+        <div class="row">
+          <div class="col-md-10 mx-auto">
             <p class="lead">
               I am a Master's student in the David R. Cheriton School of Computer Science at the University of Waterloo,
               specializing at the intersection of natural language processing and information retrieval, advised by

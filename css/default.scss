@@ -24,15 +24,23 @@ p {
 }
 
 .top-buffer {
-  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.top-buffer-lg {
+  padding-top: 40px;
 }
 
 .bottom-buffer {
+  padding-bottom: 20px;
+}
+
+.bottom-sep {
   margin-bottom: 20px;
 }
 
 .bottom-buffer-lg {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 /* Inspired by http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-container-in-bootstrap */
