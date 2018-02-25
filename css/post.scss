@@ -1,5 +1,33 @@
 ---
 ---
+.jumbotron {
+  position: relative;
+  background: url({{ site.baseurl }}/assets/writing.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    opacity: 1;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+}
+
+.intro {
+  position: relative;
+  z-index: 100;
+}
+
 img {
   max-width: 100%;
   margin-bottom: 10px;

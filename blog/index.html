@@ -10,25 +10,34 @@
   <body>
     {% assign url = page.url|remove:'index.html' %}
     {% include navigation.html %}
-    <div class="container pt-5 pb-5">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Blog</h1>
-          {% if paginator.posts.size > 0 %}
-            {% for post in paginator.posts %}
-              <div class="card mb-3">
-                <div class="card-body">
-                  <h5 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
-                  <p class="card-text">{{ post.excerpt }}</p>
-                  <p class="card-text"><small class="text-muted">{{ post.date | date: '%B %d, %Y' }}</small></p>
-                </div>
-              </div>
-            {% endfor %}
-          {% else %}
-            <p class="pt-5 pb-5">There are no blog posts currently available.</p>
-          {% endif %}
+    <div class="overlay">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="intro">
+            <h1 class="display-3">Blog</h1>
+            <p>I currently use this blog to write about computer science. I used to also write about life
+            and travel, but has sinced decided to write new posts about those topics on my
+            <a href="https://bamboofortress.wordpress.com/">WordPress</a> blog.
+            You will still find my old posts on those subjects here.</p>
+          </div>
         </div>
       </div>
+    </div>
+    <div class="container pt-5 pb-5">
+      {% if paginator.posts.size > 0 %}
+          {% for post in paginator.posts %}
+          <div class="card border-info mb-3">
+            <div class="card-body">
+              <h5 class="card-title">{{ post.title }}</h5>
+              <p class="card-text">{{ post.excerpt }}</p>
+              <a href="{{ post.url }}" class="btn btn-outline-primary">Read</a>
+              <p class="card-text"><small class="text-muted">{{ post.date | date: '%B %d, %Y' }}</small></p>
+            </div>
+          </div>
+          {% endfor %}
+      {% else %}
+        <p class="pt-5 pb-5">There are no blog posts currently available.</p>
+      {% endif %}
 
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
