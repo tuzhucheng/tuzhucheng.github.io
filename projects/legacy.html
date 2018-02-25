@@ -10,14 +10,22 @@
   <body>
     {% assign url = page.url|remove:'index.html' %}
     {% include navigation.html %}
-    <div class="container projects pt-5 pb-5">
+    <div class="container pt-5 pb-5">
       <div class="row">
         <div class="col-md-12">
-          <h1>Projects</h1>
+          <h1>Legacy Projects</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="alert alert-warning" role="alert">
+            These are projects I worked on a long time ago, during high school or the first
+            or second year when I was an undergrad. Ah, the good old times..
+          </div>
         </div>
       </div>
 
-      {% for project in site.data.projects %}
+      {% for project in site.data.projects_legacy %}
         <div class="row mb-3">
           <div class="col-md-12">
             <div class="card">
@@ -52,7 +60,7 @@
         </div>
       {% endfor %}
 
-      <a class="btn btn-dark" href="legacy">Legacy Projects</a>
+      <a class="btn btn-dark" href="{{ site.url }}/projects">Primary Projects</a>
 
     </div>
     {% include footer.html %}

@@ -1,0 +1,121 @@
+#- name: Project Name
+#  technologies: Languages
+#  description: Description here
+#  links:
+#    - display: View on GitHub
+#      href: "https://github.com/..."
+#    - display: View live demo
+#      href: "www.heroku"
+#  screenshots:
+#    - description: Some description of screenshot
+#      thumbnail: Link to thumbnail
+#      fullsize: Link to full sized image
+
+- name: "GRTSquare"
+  technologies: C++
+  description: GRTSquare is a native BlackBerry 10 app wrote in C++, using the Cascades and Qt framework,
+               that allows users to checkout when the next bus arrives based on the current time or some future time.
+               The application stores everything locally so there is no need for a data connection for it to perform the lookup.
+  screenshots:
+    - description: "Search for a bus stop."
+      thumbnail: "http://i.imgur.com/tF1hevY.png"
+      fullsize: "http://i.imgur.com/WkIvMl5.png"
+    - description: "Displays the routes at the current stop and the next bus times for each route."
+      thumbnail: "http://i.imgur.com/Jk8smeG.png"
+      fullsize: "http://i.imgur.com/keMBr6n.png"
+    - description: "Select a future time to look up."
+      thumbnail: "http://i.imgur.com/wZZAzdh.png"
+      fullsize: "http://i.imgur.com/LHG0eQJ.png"
+  links:
+    - display: Source Code on GitHub
+      href: "https://github.com/tuzhucheng/GRTSquare"
+
+- name: "LaTeXMe"
+  technologies: JavaScript
+  description: "Often when we are trying to communicate mathematical equations to others using instant messaging,
+  it is difficult to decipher the equation in plain text. For example, (b + ((a+b)^2/(c+d)) + cd/2) is pretty hard
+  to read. During the <b>2014 Facebook Hackathon</b> at the University of Waterloo, I worked alongside three
+  other students from the University of Waterloo to create LaTeXMe, a proof of concept web app for instant messaging
+  where equations need to be sent. Users can login to Facebook and invite their friends to join them to collaborate on
+  math in the LaTexMe chatroom, which can render equations beautifully on the screen from LaTeX. It is powered by
+  the MathJax library. I gained exposure to using the <b>Facebook Graph API</b> while working on this project."
+  links:
+    - display: Source Code on GitHub
+      href: "https://github.com/hyunwookshin/uwcollab"
+
+- name: "multichat"
+  technologies: Java
+  description: "multichat consists of 2 different kinds of programs: a server and a client.
+  Multiple instances of the client program can run at the same time and messages can be sent between clients
+  and the server. New clients can join and leave the group at any point in time. The main purpose of this project
+  is to practice working with <b>concurrency</b> and <b>networking</b> in Java."
+  screenshots:
+    - description: "The server is launched and it's listening for client requests to connect."
+      thumbnail: "http://i.imgur.com/MVgaZPI.png"
+      fullsize: "http://i.imgur.com/z1RBWBk.png"
+    - description: "The server has successfully connected with two clients."
+      thumbnail: "http://i.imgur.com/bGuXq6x.png"
+      fullsize: "http://i.imgur.com/DDxeXUk.png"
+    - description: "Each client and the server itself can send messages to everyone else."
+      thumbnail: "http://i.imgur.com/RE21ycN.png"
+      fullsize: "http://i.imgur.com/nNQgRO2.png"
+    - description: "When the server's input is &quot; END &quot;, the server shuts down and the clients receive the signal to shut down."
+      thumbnail: "http://i.imgur.com/itvL5Y8.png"
+      fullsize: "http://i.imgur.com/wo5mvWW.png"
+  links:
+    - display: Source Code on GitHub
+      href: "https://github.com/tuzhucheng/multichat"
+
+- name: "GradeTrackr"
+  technologies: Android
+  description: "GradeTrackr is an Android application that helps students to keep track of their grades.
+  I worked on this project alongside 3 peers in my program. Students can enter terms, courses, categories,
+  and different kinds of evaluations such as tests, quizzes, assignments, and projects into the app and the
+  app can calculate the weighted averages. All data is stored in a SQLite database."
+  screenshots:
+    - description: "This is the main activity of GradeTrackr when there are no terms present."
+      thumbnail: "http://i.imgur.com/8bIRPFc.png"
+      fullsize: "http://i.imgur.com/cTBzWul.png"
+    - description: "Categories belonging to a course is displayed here. Each category has its own colour and mark and the total mark for the course as a weighted sum of the category marks is shown at the top."
+      thumbnail: "http://i.imgur.com/O0Kf7Tg.png"
+      fullsize: "http://i.imgur.com/SWgiZsE.png"
+    - description: "Evaluations for a particular category: evaluations can be expanded to show more details."
+      thumbnail: "http://i.imgur.com/IQTkrM7.png"
+      fullsize: "http://i.imgur.com/4ym6FBq.png"
+    - description: "The search functionality can be used to search for courses, categories, and evaluations."
+      thumbnail: "http://i.imgur.com/MN4sl5m.png"
+      fullsize: "http://i.imgur.com/SPGKs7x.png"
+  links:
+    - display: Source Code on GitHub
+      href: "https://github.com/tuzhucheng/gradebook-android"
+    - display: Google Play link
+      href: "https://play.google.com/store/apps/details?id=ca.projectkarma.gradetrackr"
+
+- name: "Sudoku Solver"
+  technologies: Java, JavaScript, C#
+  description: "Sudoku Solver does exactly what it says, it can solve any Sudoku found on the web and in puzzle books.
+                  I used my own algorithm for this project, which is based on 2 elimination techniques.
+                  The Sudoku Solver was initially written in Java, and afterwards it was ported to JavaScript as an iOS web app (Mobile Safari)
+                  and also to C# as a native Windows 8 app. The Windows 8 app was made during the 2012 WowZapp Microsoft Worldwide Hackathon
+                  and the Sudoku Solver received a mention on a MSDN blog."
+  screenshots:
+    - description: "Entering the puzzle on Mobile Safari."
+      thumbnail: "http://i.imgur.com/2NbLCym.png"
+      fullsize: "http://i.imgur.com/qTzz7lp.png"
+    - description: "The sudoku is solved on Mobile Safari."
+      thumbnail: "http://i.imgur.com/QxhFDkk.png"
+      fullsize: "http://i.imgur.com/rzobM0H.png"
+    - description: "The native app for Windows 8 has a step-by-step function that is added. When it is enabled,
+      the app can walk the user through how to get to the correct solution using logical deductions."
+      thumbnail: "http://i.imgur.com/9RnQN41.png"
+      fullsize: "http://i.imgur.com/0fvItFu.png"
+    - description: "The sudoku is solved on Windows 8."
+      thumbnail: "http://i.imgur.com/d1MkxqV.png"
+      fullsize: "http://i.imgur.com/xKtNMfo.png"
+  links:
+    - display: Windows 8 App (C#) Source Code on GitHub
+      href: "https://github.com/tuzhucheng/Step-By-Step-Sudoku-Solver-for-Windows-8"
+    - display: JavaScript Source Code on GitHub
+      href: "https://github.com/tuzhucheng/sudoku-solver-js"
+    - display: MSDN Blog Mention
+      href: "http://blogs.msdn.com/b/cdnstudents/archive/2012/12/04/waterloo-wowzapp-microsoft-worldwide-hackathon.aspx"

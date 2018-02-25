@@ -1,29 +1,5 @@
 ---
 ---
-.project-technologies {
-  text-align: right;
-}
-
-.projects {
-  > div {
-    &:last-of-type {
-      margin-bottom: 20px;
-    }
-  }
-}
-
-.project-description {
-  font-size: 16px;
-  text-align: justify;
-}
-
-.project-link {
-  display: inline-block;
-  font-size: 18px;
-  font-family: 'Source Sans Pro', sans-serif;
-  padding-right: 20px;
-}
-
 .cover-container {
     white-space: nowrap;
     overflow-y: hidden;
