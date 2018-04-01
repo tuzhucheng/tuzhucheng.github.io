@@ -30,7 +30,7 @@
   network that performs feedforward inference completely in the browser.
   Such a deployment means that models can run completely on the
   client---on devices ranging from laptops to mobile phones and even
-  ``smart home'' gadgets---without making backend server requests.
+  \"smart home\" gadgets---without making backend server requests.
   This design is useful for applications with stringent latency
   requirements or low connectivity. Our evaluations show the feasibility
   of JavaScript as a deployment target for neural network models
