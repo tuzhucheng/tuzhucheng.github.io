@@ -7,6 +7,42 @@
 #  location: Location of venue
 #  year: year
 
+- id: tu2018pay
+  names: "<strong>Zhucheng Tu</strong>, Mengping Li, and Jimmy Lin"
+  title: Pay-Per-Request Deployment of Neural Network Models Using Serverless Architectures
+  abstract: "We demonstrate the serverless deployment of neural networks for model
+  inferencing in NLP applications using Amazon's Lambda service for
+  feedforward evaluation and DynamoDB for storing word embeddings. Our
+  architecture realizes a pay-per-request pricing model, requiring zero
+  ongoing costs for maintaining server instances. In fact, all virtual
+  machine management is handled behind the scenes by the cloud provider
+  without any direct developer intervention. We describe a number of
+  techniques that allow efficient use of serverless resources, and
+  evaluations confirm that our design is both scalable and inexpensive."
+  booktitle: "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations"
+  location: New Orleans, USA
+  year: June 2018
+
+- id: liang2018cnns
+  names: "Yiyun Liang, <strong>Zhucheng Tu</strong>, Laetitia Huang, and Jimmy Lin"
+  title: CNNs for NLP in the Browser: Client-Side Deployment and Visualization Opportunities
+  abstract: "We demonstrate a JavaScript implementation of a convolutional neural
+  network that performs feedforward inference completely in the browser.
+  Such a deployment means that models can run completely on the
+  client---on devices ranging from laptops to mobile phones and even
+  ``smart home'' gadgets---without making backend server requests.
+  This design is useful for applications with stringent latency
+  requirements or low connectivity. Our evaluations show the feasibility
+  of JavaScript as a deployment target for neural network models
+  from a performance perspective.
+  Furthermore, an in-browser
+  implementation enables seamless integration with the JavaScript
+  ecosystem for information visualization, providing opportunities to
+  visually inspect neural networks and better understand their inner workings."
+  booktitle: "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations"
+  location: New Orleans, USA
+  year: June 2018
+
 - id: tang2017experimental
   names: "Raphael Tang, Weijie Wang, <strong>Zhucheng Tu</strong>, and Jimmy Lin"
   title: An Experimental Analysis of the Power Consumption of Convolutional Neural Networks for Keyword Spotting
@@ -21,8 +57,9 @@
   predictors of energy usage, although the number of multiplies is more
   predictive than the number of model parameters. We also confirm that models
   with the highest accuracies are, unsurprisingly, the most power hungry."
-  booktitle: "arXiv:1711.00333"
-  year: October 2017
+  booktitle: "Proceedings of the 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2018)"
+  location: Calgary, Canada
+  year: April 2018
 
 - id: tu2017exploration
   names: "<strong>Zhucheng Tu</strong>, Matt Crane, Royal Sequiera, Junchen Zhang, and Jimmy Lin"
