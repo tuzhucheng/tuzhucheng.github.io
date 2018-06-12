@@ -10,6 +10,7 @@
 - id: tu2018pay
   names: "<strong>Zhucheng Tu</strong>, Mengping Li, and Jimmy Lin"
   title: Pay-Per-Request Deployment of Neural Network Models Using Serverless Architectures
+  link: http://aclweb.org/anthology/N18-5002
   abstract: "We demonstrate the serverless deployment of neural networks for model
   inferencing in NLP applications using Amazon's Lambda service for
   feedforward evaluation and DynamoDB for storing word embeddings. Our
@@ -26,6 +27,7 @@
 - id: liang2018cnns
   names: "Yiyun Liang, <strong>Zhucheng Tu</strong>, Laetitia Huang, and Jimmy Lin"
   title: "CNNs for NLP in the Browser: Client-Side Deployment and Visualization Opportunities"
+  link: http://aclweb.org/anthology/N18-5013
   abstract: "We demonstrate a JavaScript implementation of a convolutional neural
   network that performs feedforward inference completely in the browser.
   Such a deployment means that models can run completely on the client,
