@@ -19,7 +19,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ pub.title }}</h5>
               <h6 class="card-subtitle mb-2 text-muted">{{ pub.names }}</h6>
-              <h6 class="card-subtitle mb-2 text-muted"><i>{{ pub.booktitle }}</i>, {{ pub.year }}{% if pub.location %}, {{ pub.location }}{% endif %}</h6>
+              <h6 class="card-subtitle mb-2 text-muted">{% if pub.booktitle %}<i>{{ pub.booktitle }}</i>,{% endif %} {{ pub.year }}{% if pub.location %}, {{ pub.location }}{% endif %}</h6>
               <p class="card-text collapse" id="{{ pub.id }}">{{ pub.abstract }}</p>
               <a href="{{ pub.link }}" target="_blank" class="card-link">Paper</a>
               <a href="#{{ pub.id }}" class="card-link" data-toggle="collapse">Abstract</a>

@@ -7,6 +7,45 @@
 #  location: Location of venue
 #  year: year
 
+- id: vakulenko2020question
+  names: "Svitlana Vakulenko, Shayne Longpre, <strong>Zhucheng Tu</strong>, Raviteja Anantha"
+  title: Question Rewriting for Conversational Question Answering (<i>Preprint</i>)
+  link: https://arxiv.org/abs/2004.14652
+  abstract: "Conversational question answering (QA) requires answers conditioned on the previous turns of the
+  conversation. We address the conversational QA task by decomposing it into question rewriting and question
+  answering subtasks, and conduct a systematic evaluation of this approach on two publicly available datasets.
+  Question rewriting is designed to reformulate ambiguous questions, dependent on the conversation context,
+  into unambiguous questions that are fully interpretable outside of the conversation context. Thereby,
+  standard QA components can consume such explicit questions directly. The main benefit of this approach is
+  that the same questions can be used for querying different information sources, e.g., multiple 3rd-party QA
+  services simultaneously, as well as provide a human-readable interpretation of the question in context.
+  To the best of our knowledge, we are the first to evaluate question rewriting on the conversational question
+  answering task and show its improvement over the end-to-end baselines. Moreover, our conversational QA
+  architecture based on question rewriting sets the new state of the art on the TREC CAsT 2019 dataset with
+  a 28% improvement in MAP and 21% in NDCG@3. Our detailed analysis of the evaluation results provide insights
+  into the sensitivity of QA models to question reformulation, and demonstrates the strengths and weaknesses of
+  the retrieval and extractive QA architectures, that should be reflected in their integration."
+  booktitle: arXiv
+  location:
+  year: April 2020
+
+- id: pouransari2019least
+  names: "Hadi Pouransari, <strong>Zhucheng Tu</strong>, and Oncel Tuzel"
+  title: Least Squares Binary Quantization of Neural Networks (<i>Preprint</i>)
+  link: https://arxiv.org/abs/2001.02786
+  abstract: "Quantizing weights and activations of deep neural networks results in significant improvement
+  in inference efficiency at the cost of lower accuracy. A source of the accuracy gap between full precision
+  and quantized models is the quantization error. In this work, we focus on the binary quantization,
+  in which values are mapped to -1 and 1. We provide a unified framework to analyze different scaling strategies.
+  Inspired by the pareto-optimality of 2-bits versus 1-bit quantization, we introduce a novel 2-bits quantization
+  with provably least squares error. Our quantization algorithms can be implemented efficiently on the hardware
+  using bitwise operations. We present proofs to show that our proposed methods are optimal, and also provide
+  empirical error analysis. We conduct experiments on the ImageNet dataset and show a reduced accuracy gap when
+  using the proposed least squares quantization algorithms."
+  booktitle: arXiv
+  location:
+  year: March 2020
+
 - id: longpre2019exploration
   names: "Shayne Longpre*, Yi Lu*, <strong>Zhucheng Tu*</strong>, and Chris DuBois"
   title: An Exploration of Data Augmentation and Sampling Techniques for Domain-Agnostic Question Answering
@@ -20,7 +59,7 @@
   the second best Exact Match and F1 in the MRQA leaderboard competition."
   booktitle: "Proceedings of the 2nd Workshop on Machine Reading for Question Answering"
   location: Hong Kong, China
-  year: Nov 2019
+  year: November 2019
 
 - id: tu2018pay
   names: "<strong>Zhucheng Tu</strong>, Mengping Li, and Jimmy Lin"
