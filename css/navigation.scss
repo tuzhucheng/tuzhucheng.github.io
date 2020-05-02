@@ -55,6 +55,12 @@
 .social-btns .btn.email .fa {
   color: #f65314;
 }
+.social-btns .btn.google-scholar:before {
+  background-color: #0687f0;
+}
+.social-btns .btn.google-scholar .fa {
+  color: #0687f0;
+}
 
 .social-btns .btn:focus:before,
 .social-btns .btn:hover:before {
