@@ -5,63 +5,41 @@
   <head>
     {% include head_includes.html %}
     <link rel="stylesheet" href="/css/frontpage.css">
-    <script>
-      // adapted from https://www.solodev.com/blog/web-design/adding-a-scroll-down-anchor-to-your-website.stml
-      $(document).ready(function(){
-        $("#learn-more").on('click', function(event) {
-          if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 800, function(){
-              window.location.hash = hash;
-            });
-          }
-        });
-      });
-    </script>
     <title>Michael Tu</title>
   </head>
   <body>
     {% assign url = page.url|remove:'index.html' %}
     {% include navigation.html %}
-    <div class="overlay">
-      <div class="jumbotron">
-        <div class="container">
-          <div class="intro">
-            <img src="assets/profile/profile-round.png" alt="Michael Tu" width="150">
-            <h1 class="display-3">Hello, world!</h1>
-            <p>I'm Michael, a graduate CS student at the University of Waterloo.
-               My Chinese name is 涂竹成, so you often see Zhucheng Tu as my official name.
-               I finished my undergrad in Software Engineering in 2017, also at Waterloo.</p>
-            <p><a class="btn btn-info btn-lg" id="learn-more" href="#about" role="button">Learn more about me &raquo;</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="vertical-center">
       <div class="container" id="about">
         <div class="row mp-2">
-          <div class="col-md-10 mx-auto">
+          <div class="col-md-2">
+            <div class="intro">
+              <img src="assets/profile/profile-round.png" alt="Michael Tu" width="150">
+            </div>
+          </div>
+          <div class="col-md-8 mx-auto">
             <p class="lead">
-              I just graduated as a Master's student in the David R. Cheriton School of Computer Science at the University of Waterloo,
-              specializing at the intersection of natural language processing and information retrieval, advised by
-              Professor <a href="https://cs.uwaterloo.ca/~jimmylin/" target="_blank">Jimmy Lin</a>. I also completed my undergrad at uWaterloo majoring in Software Engineering,
-              graduating on the Dean's Honour's List in June 2017.
+              Hi, I'm Michael. My formal name is Zhucheng Tu (涂竹成). I'm currently an engineer working on Siri at Apple.
             </p>
             <p class="lead">
-              My interest is in natural language processing / text, applied machine learning, and building the
-              infrastructure to support these goals. During my undergrad, I have done various internships focusing on
-              various aspects of these responsibilities at Facebook, Uber, and Reflektion. One of my main strengths
-              is I am skilled in building end-to-end systems, from the data pipelines in the backend to the clients in the
-              frontend.
+              I graduated as a thesis-based Master's student from the <a href="https://cs.uwaterloo.ca/" target="_blank">David R. Cheriton School of Computer Science</a>
+              at the <a href="https://www.uwaterloo.ca/" target="_blank">University of Waterloo</a> in 2018, specializing at the intersection of natural language processing and information retrieval.
+              I was advised by Professor <a href="https://cs.uwaterloo.ca/~jimmylin/" target="_blank">Jimmy Lin</a>.
+              I also completed my undergraduate studies at the University of Waterloo majoring in Software Engineering, graduating on the Dean's Honour's List in June 2017.
+            </p>
+            <p class="lead">
+              My primary interests focus on natural language processing and building software systems that enable information retrieval and NLP technologies to be realized.
+              Specifically, I am interested in working on models and developing intelligent systems that can find answers to questions from large unstructured text corpora.
+              During my Master's my focus was on semantic textual similarity and retrieval-based question answering.  
+            </p>
+            <p class="lead">
+              During the past I've completed internships at Uber (Fall 2016, fraud detection), Facebook (Winter 2016, Instagram data engineering), and Reflektion (Summer 2015 & Fall 2014, ML infrastructure and backend).
             </p>
             <p class="lead">
                 My overarching goals have remained the same for many years: to be an earnest person
                 whom can be relied upon and to never stop learning.
-                I enjoy photography, travelling, reading, and expanding my technical breadth
-                and depth by taking online courses.
+                I enjoy photography, travelling, and reading.
             </p>
           </div>
         </div>
