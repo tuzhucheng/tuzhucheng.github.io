@@ -33,6 +33,7 @@
   names: "Hadi Pouransari, <strong>Zhucheng Tu</strong>, and Oncel Tuzel"
   title: Least Squares Binary Quantization of Neural Networks
   link: https://arxiv.org/abs/2001.02786
+  code: https://github.com/apple/ml-quant
   abstract: "Quantizing weights and activations of deep neural networks results in significant improvement
   in inference efficiency at the cost of lower accuracy. A source of the accuracy gap between full precision
   and quantized models is the quantization error. In this work, we focus on the binary quantization,
@@ -65,6 +66,7 @@
   names: "<strong>Zhucheng Tu</strong>, Mengping Li, and Jimmy Lin"
   title: Pay-Per-Request Deployment of Neural Network Models Using Serverless Architectures
   link: http://aclweb.org/anthology/N18-5002
+  code: https://github.com/castorini/serverless-inference
   abstract: "We demonstrate the serverless deployment of neural networks for model
   inferencing in NLP applications using Amazon's Lambda service for
   feedforward evaluation and DynamoDB for storing word embeddings. Our
@@ -82,6 +84,7 @@
   names: "Yiyun Liang, <strong>Zhucheng Tu</strong>, Laetitia Huang, and Jimmy Lin"
   title: "CNNs for NLP in the Browser: Client-Side Deployment and Visualization Opportunities"
   link: http://aclweb.org/anthology/N18-5013
+  code: https://github.com/castorini/kim-cnn-vis
   abstract: "We demonstrate a JavaScript implementation of a convolutional neural
   network that performs feedforward inference completely in the browser.
   Such a deployment means that models can run completely on the client,
@@ -101,6 +104,7 @@
   names: "<strong>Zhucheng Tu</strong>"
   title: An Experimental Analysis of Multi-Perspective Convolutional Neural Networks
   link: https://uwspace.uwaterloo.ca/handle/10012/13297
+  code: https://github.com/tuzhucheng/MP-CNN-Variants
   abstract: "Modelling the similarity of sentence pairs is an important problem in
   natural language processing and information retrieval, with applications in tasks
   such as paraphrase identification and answer selection in question answering.
@@ -120,6 +124,7 @@
   names: "Raphael Tang, Weijie Wang, <strong>Zhucheng Tu</strong>, and Jimmy Lin"
   title: An Experimental Analysis of the Power Consumption of Convolutional Neural Networks for Keyword Spotting
   link: https://arxiv.org/abs/1711.00333
+  code: https://github.com/castorini/honk/tree/master/raspberry_pi_experiments
   abstract: "Nearly all previous work on small-footprint keyword spotting with
   neural networks quantify model footprint in terms of the number of
   parameters and multiply operations for a feedforward inference pass. These values
