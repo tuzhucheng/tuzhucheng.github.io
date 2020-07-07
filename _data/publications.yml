@@ -97,6 +97,25 @@
   location: New Orleans, USA
   year: June 2018
 
+- id: tu2018experimental
+  names: "<strong>Zhucheng Tu</strong>"
+  title: An Experimental Analysis of Multi-Perspective Convolutional Neural Networks
+  link: https://uwspace.uwaterloo.ca/handle/10012/13297
+  abstract: "Modelling the similarity of sentence pairs is an important problem in
+  natural language processing and information retrieval, with applications in tasks
+  such as paraphrase identification and answer selection in question answering.
+  The Multi-Perspective Convolutional Neural Network (MP-CNN) is a model that improved
+  previous state-of-the-art models in 2015 and has remained a popular model for sentence
+  similarity tasks. However, until now, there has not been a rigorous study of how the
+  model actually achieves competitive accuracy. In this thesis, we report on a series
+  of detailed experiments that break down the contribution of each component of MP-CNN
+  towards its statistical accuracy and how they affect model robustness. We find that
+  two key components of MP-CNN are non-essential to achieve competitive accuracy and
+  they make the model less robust to changes in hyperparameters."
+  booktitle: "Master's thesis, University of Waterloo"
+  location: Waterloo, Canada
+  year: May 2018
+
 - id: tang2017experimental
   names: "Raphael Tang, Weijie Wang, <strong>Zhucheng Tu</strong>, and Jimmy Lin"
   title: An Experimental Analysis of the Power Consumption of Convolutional Neural Networks for Keyword Spotting
