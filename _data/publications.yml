@@ -31,7 +31,7 @@
 
 - id: pouransari2019least
   names: "Hadi Pouransari, <strong>Zhucheng Tu</strong>, and Oncel Tuzel"
-  title: Least Squares Binary Quantization of Neural Networks (<i>Preprint</i>)
+  title: Least Squares Binary Quantization of Neural Networks
   link: https://arxiv.org/abs/2001.02786
   abstract: "Quantizing weights and activations of deep neural networks results in significant improvement
   in inference efficiency at the cost of lower accuracy. A source of the accuracy gap between full precision
@@ -42,9 +42,9 @@
   using bitwise operations. We present proofs to show that our proposed methods are optimal, and also provide
   empirical error analysis. We conduct experiments on the ImageNet dataset and show a reduced accuracy gap when
   using the proposed least squares quantization algorithms."
-  booktitle: arXiv
-  location:
-  year: March 2020
+  booktitle: The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops
+  location: Seattle, USA
+  year: June 2020
 
 - id: longpre2019exploration
   names: "Shayne Longpre*, Yi Lu*, <strong>Zhucheng Tu*</strong>, and Chris DuBois"
