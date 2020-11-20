@@ -50,7 +50,7 @@
 - id: vakulenko2020wrong
   names: "Svitlana Vakulenko, Shayne Longpre, <strong>Zhucheng Tu</strong>, Raviteja Anantha"
   title: A Wrong Answer or a Wrong Question? An Intricate Relationship between Question Reformulation and Answer Selection in Conversational Question Answering
-  link: https://arxiv.org/abs/2010.06835
+  link: https://www.aclweb.org/anthology/2020.scai-1.2/
   abstract: "Conversational question answering (QA) requires answers conditioned on the previous turns of the
   conversation. We address the conversational QA task by decomposing it into question rewriting and question
   answering subtasks, and conduct a systematic evaluation of this approach on two publicly available datasets.
