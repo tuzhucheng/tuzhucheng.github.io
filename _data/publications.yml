@@ -7,9 +7,27 @@
 #  location: Location of venue
 #  year: year
 
+- id: vakulenko2021comparison
+  names: "Svitlana Vakulenko, Nikos Voskarides, <strong>Zhucheng Tu</strong>, Shayne Longpre"
+  title: A Comparison of Question Rewriting Methods for Conversational Passage Retrieval
+  link: https://link.springer.com/chapter/10.1007/978-3-030-72240-1_43
+  abstract: "Conversational passage retrieval relies on question rewriting to modify the original question so that it no longer depends on the conversation history. Several methods for question rewriting have recently been proposed, but they were compared under different retrieval pipelines. We bridge this gap by thoroughly evaluating those question rewriting methods on the TREC CAsT 2019 and 2020 datasets under the same retrieval pipeline. We analyze the effect of different types of question rewriting methods on retrieval performance and show that by combining question rewriting methods of different types we can achieve state-of-the-art performance on both datasets (Resources can be found at <a href='https://github.com/svakulenk0/cast_evaluation' target='_new'>https://github.com/svakulenk0/cast_evaluation</a>.)"
+  booktitle: "43rd European Conference on IR Research, ECIR 2021"
+  location: Online
+  year: March 2021
+
+- id: vakulenko2020question
+  names: "Svitlana Vakulenko, Shayne Longpre, <strong>Zhucheng Tu</strong>, Raviteja Anantha"
+  title: Question Rewriting for Conversational Question Answering
+  link: https://dl.acm.org/doi/10.1145/3437963.3441748
+  abstract: "Conversational question answering (QA) requires the ability to correctly interpret a question in the context of previous conversation turns. We address the conversational QA task by decomposing it into question rewriting and question answering subtasks. The question rewriting (QR) subtask is specifically designed to reformulate ambiguous questions, which depend on the conversational context, into unambiguous questions that can be correctly interpreted outside of the conversational context. We introduce a conversational QA architecture that sets the new state of the art on the TREC CAsT 2019 passage retrieval dataset. Moreover, we show that the same QR model improves QA performance on the QuAC dataset with respect to answer span extraction, which is the next step in QA after passage retrieval. Our evaluation results indicate that the QR model we proposed achieves near human-level performance on both datasets and the gap in performance on the end-to-end conversational QA task is attributed mostly to the errors in QA."
+  booktitle: "WSDM '21: Proceedings of the 14th ACM International Conference on Web Search and Data Mining"
+  location: Online
+  year: March 2021
+
 - id: anantha2020open
   names: "Raviteja Anantha*, Svitlana Vakulenko*, <strong>Zhucheng Tu</strong>, Shayne Longpre, Stephen Pulman, Srinivas Chappidi"
-  title: Open-Domain Question Answering Goes Conversational via Question Rewriting (Pre-print)
+  title: Open-Domain Question Answering Goes Conversational via Question Rewriting (Accepted to NAACL 2021, Camera-Ready Available Soon)
   link: https://arxiv.org/abs/2010.04898
   abstract: "We introduce a new dataset for Question Rewriting in Conversational Context (QReCC), 
   which contains 14K conversations with 81K question-answer pairs. The task in QReCC is to find answers 
@@ -22,29 +40,7 @@
   baseline for the QReCC dataset with F1 of 19.07, compared to the human upper bound of 74.47, 
   indicating the difficulty of the setup and a large room for improvement."
   booktitle: arXiv
-  location:
-  year: October 2020
-
-- id: vakulenko2020question
-  names: "Svitlana Vakulenko, Shayne Longpre, <strong>Zhucheng Tu</strong>, Raviteja Anantha"
-  title: Question Rewriting for Conversational Question Answering (Accepted to WSDM 2021)
-  link: https://arxiv.org/abs/2004.14652
-  abstract: "Conversational question answering (QA) requires answers conditioned on the previous turns of the
-  conversation. We address the conversational QA task by decomposing it into question rewriting and question
-  answering subtasks, and conduct a systematic evaluation of this approach on two publicly available datasets.
-  Question rewriting is designed to reformulate ambiguous questions, dependent on the conversation context,
-  into unambiguous questions that are fully interpretable outside of the conversation context. Thereby,
-  standard QA components can consume such explicit questions directly. The main benefit of this approach is
-  that the same questions can be used for querying different information sources, e.g., multiple 3rd-party QA
-  services simultaneously, as well as provide a human-readable interpretation of the question in context.
-  To the best of our knowledge, we are the first to evaluate question rewriting on the conversational question
-  answering task and show its improvement over the end-to-end baselines. Moreover, our conversational QA
-  architecture based on question rewriting sets the new state of the art on the TREC CAsT 2019 dataset with
-  a 28% improvement in MAP and 21% in NDCG@3. Our detailed analysis of the evaluation results provide insights
-  into the sensitivity of QA models to question reformulation, and demonstrates the strengths and weaknesses of
-  the retrieval and extractive QA architectures, that should be reflected in their integration."
-  booktitle: arXiv
-  location:
+  location: Online
   year: October 2020
 
 - id: vakulenko2020wrong
