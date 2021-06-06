@@ -7,6 +7,16 @@
 #  location: Location of venue
 #  year: year
 
+- id: anantha2020open
+  names: "Raviteja Anantha*, Svitlana Vakulenko*, <strong>Zhucheng Tu</strong>, Shayne Longpre, Stephen Pulman, Srinivas Chappidi"
+  title: Open-Domain Question Answering Goes Conversational via Question Rewriting
+  link: https://www.aclweb.org/anthology/2021.naacl-main.44/
+  code: https://github.com/apple/ml-qrecc
+  abstract: "We introduce a new dataset for Question Rewriting in Conversational Context (QReCC), which contains 14K conversations with 80K question-answer pairs. The task in QReCC is to find answers to conversational questions within a collection of 10M web pages (split into 54M passages). Answers to questions in the same conversation may be distributed across several web pages. QReCC provides annotations that allow us to train and evaluate individual subtasks of question rewriting, passage retrieval and reading comprehension required for the end-to-end conversational question answering (QA) task. We report the effectiveness of a strong baseline approach that combines the state-of-the-art model for question rewriting, and competitive models for open-domain QA. Our results set the first baseline for the QReCC dataset with F1 of 19.10, compared to the human upper bound of 75.45, indicating the difficulty of the setup and a large room for improvement."
+  booktitle: "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+  location: Online
+  year: June 2021
+
 - id: vakulenko2021comparison
   names: "Svitlana Vakulenko, Nikos Voskarides, <strong>Zhucheng Tu</strong>, Shayne Longpre"
   title: A Comparison of Question Rewriting Methods for Conversational Passage Retrieval
@@ -24,24 +34,6 @@
   booktitle: "WSDM '21: Proceedings of the 14th ACM International Conference on Web Search and Data Mining"
   location: Online
   year: March 2021
-
-- id: anantha2020open
-  names: "Raviteja Anantha*, Svitlana Vakulenko*, <strong>Zhucheng Tu</strong>, Shayne Longpre, Stephen Pulman, Srinivas Chappidi"
-  title: Open-Domain Question Answering Goes Conversational via Question Rewriting (Accepted to NAACL 2021, Camera-Ready Available Soon)
-  link: https://arxiv.org/abs/2010.04898
-  abstract: "We introduce a new dataset for Question Rewriting in Conversational Context (QReCC), 
-  which contains 14K conversations with 81K question-answer pairs. The task in QReCC is to find answers 
-  to conversational questions within a collection of 10M web pages (split into 54M passages). 
-  Answers to questions in the same conversation may be distributed across several web pages. 
-  QReCC provides annotations that allow us to train and evaluate individual subtasks of question rewriting, 
-  passage retrieval and reading comprehension required for the end-to-end conversational question answering 
-  (QA) task. We report the effectiveness of a strong baseline approach that combines the state-of-the-art 
-  model for question rewriting, and competitive models for open-domain QA. Our results set the first 
-  baseline for the QReCC dataset with F1 of 19.07, compared to the human upper bound of 74.47, 
-  indicating the difficulty of the setup and a large room for improvement."
-  booktitle: arXiv
-  location: Online
-  year: October 2020
 
 - id: vakulenko2020wrong
   names: "Svitlana Vakulenko, Shayne Longpre, <strong>Zhucheng Tu</strong>, Raviteja Anantha"
