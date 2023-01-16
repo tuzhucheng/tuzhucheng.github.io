@@ -23,6 +23,11 @@ p {
   font-size: 16px;
 }
 
+#profile-image {
+  width: 150px;
+  border-radius: 50%;
+}
+
 /* Inspired by http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-container-in-bootstrap */
 .vertical-center {
   min-height: 90%; /* Fallback for browsers that do not support vh unit */
