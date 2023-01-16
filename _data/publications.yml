@@ -7,6 +7,15 @@
 #  location: Location of venue
 #  year: year
 
+- id: tu2022mia
+  names: "<strong>Zhucheng Tu</strong>, Janani Padmanabhan"
+  title: "MIA 2022 Shared Task Submission: Leveraging Entity Representations, Dense-Sparse Hybrids, and Fusion-in-Decoder for Cross-Lingual Question Answering"
+  link: https://arxiv.org/abs/2207.01940
+  abstract: "We describe our two-stage system for the Multilingual Information Access (MIA) 2022 Shared Task on Cross-Lingual Open-Retrieval Question Answering. The first stage consists of multilingual passage retrieval with a hybrid dense and sparse retrieval strategy. The second stage consists of a reader which outputs the answer from the top passages returned by the first stage. We show the efficacy of using entity representations, sparse retrieval signals to help dense retrieval, and Fusion-in-Decoder. On the development set, we obtain 43.46 F1 on XOR-TyDi QA and 21.99 F1 on MKQA, for an average F1 score of 32.73. On the test set, we obtain 40.93 F1 on XOR-TyDi QA and 22.29 F1 on MKQA, for an average F1 score of 31.61. We improve over the official baseline by over 4 F1 points on both the development and test sets."
+  booktitle: "Proceedings of the Workshop on Multilingual Information Access (MIA)"
+  location: Seattle, USA
+  year: July 2022
+
 - id: anantha2020open
   names: "Raviteja Anantha*, Svitlana Vakulenko*, <strong>Zhucheng Tu</strong>, Shayne Longpre, Stephen Pulman, Srinivas Chappidi"
   title: Open-Domain Question Answering Goes Conversational via Question Rewriting
